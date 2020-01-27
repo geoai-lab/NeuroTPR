@@ -20,16 +20,20 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 
 * 50 place-related tweets selected from Hurricane Harvey Twitter Dataset
 
+* All datasets are converted into the same format as WNUT-2017
 
-### NeuraTPR training
+
+### NeuroTPR training
 
 ```bash
+	python3 Model/add_lin_features.py
     python3 Model/train.py
  ```
 
-### NeuraTPR prediction on batch
+### NeuroTPR prediction on batch
 
 ```bash
+	python3 Model/add_lin_features_test.py
     python3 Model/geoparsing.py
  ```
 
