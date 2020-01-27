@@ -26,14 +26,14 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 ### NeuroTPR training
 
 ```bash
-	python3 Model/add_lin_features.py
+    python3 Model/add_lin_features.py
     python3 Model/train.py
  ```
 
 ### NeuroTPR prediction on batch
 
 ```bash
-	python3 Model/add_lin_features_test.py
+    python3 Model/add_lin_features_test.py
     python3 Model/geoparsing.py
  ```
 
