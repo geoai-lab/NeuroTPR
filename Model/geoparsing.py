@@ -18,7 +18,6 @@ labelset_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/idx2Label.npy"
 charembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/char2Idx.npy"
 charembedding_path2 = "/home/jiminwan/NeuroTPR_project/Model/outputs2/char2Idx_caseless.npy"
 posembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/pos2Idx.npy"
-nerembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/ner2Idx.npy"
 
 
 def load_keras_model(modelDIR):
@@ -54,19 +53,7 @@ def tag_article(input, test_article, model, iinx, binx):
         chars = np.asarray([chars])
         chars2 = np.asarray([chars2])
         poss = np.asarray([poss])
-        ners = np.asarray([ners])
         texts = np.asarray([texts])
-
-        # print(str(texts))
-        # print(i)
-
-        # streets = street_detector(str(texts))
-        #
-        # for street in streets.keys():
-        #     result_line += street + ",," + street + ",,30,,140,,"
-        #     result_line += str(streets[street][0]) + ",," + str(streets[street][1]) + "||"
-        #
-        # print(result_line)
 
         if len(texts[0]) <= 1:
             break
@@ -96,7 +83,7 @@ def tag_article(input, test_article, model, iinx, binx):
                     print(toponym)
                     toponym = toponym[:-2]
 
-                if toponym.find("Harvey") == -1:
+                if len(toponym) > 1:
                     result_line += toponym + ",," + toponym + ",,30,,140,,"
                     result_line += str(test_article[i][1][old_idx]) + ",," + str(
                         test_article[i][1][old_idx] + len(toponym) - 1) + "||"
@@ -109,49 +96,10 @@ def tag_article(input, test_article, model, iinx, binx):
             else:
                 tokenIdx += 1
 
-        return result_line
-
-    # pred_loc_arr = list(np.where(np.array(pred) != oinx)[0])
-    # pred_iloc_arr = list(np.where(np.array(pred) == iinx)[0])
-    #
-    #
-    # if len(pred_loc_arr) >= 2 and len(pred_iloc_arr) > 0:
-    #
-    #     old_j = pred_loc_arr[0]
-    #     toponyms = test_article[i][0][old_j]
-    #
-    #     for j in pred_loc_arr[1:]:
-    #
-    #         if j in pred_iloc_arr:
-    #             toponyms += " " + test_article[i][0][j]
-    #
-    #         else:
-    #             # print(toponyms)
-    #             if toponyms.find("Harvey") == -1:
-    #                 result_line += toponyms + ",," + toponyms + ",,30,,140,,"
-    #                 result_line += str(test_article[i][1][old_j]) + ",," + str(test_article[i][1][old_j]+len(toponyms)-1) + "||"
-    #             old_j = j
-    #             toponyms = test_article[i][0][j]
-    #
-    #     # last toponym
-    #     if toponyms.find("Harvey") == -1:
-    #         result_line += toponyms + ",," + toponyms + ",,30,,140,,"
-    #         result_line += str(test_article[i][1][old_j]) + ",," + str(test_article[i][1][old_j] + len(toponyms) - 1) + "||"
-    #
-    # elif len(pred_loc_arr) > 0:
-    #     toponyms = [*map(test_article[i][0].__getitem__, pred_loc_arr)]
-    #     # start_idx = [*map(test_article[i][1].__getitem__, pred_arr)][0]
-    #
-    #     for q, loc in enumerate(toponyms):
-    #         # print(loc)
-    #         start_index = test_article[i][1][pred_loc_arr[q]]
-    #         if loc.find("Harvey") == -1:
-    #             result_line += loc + ",," + loc + ",,30,,140,," + str(start_index) + ",," + str(start_index+len(loc)-1) + "||"
-
     return result_line
 
 
-def tag_corpus(corpus_path, corpus_name, word2Idx, idx2Label, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx):
+def tag_corpus(corpus_path, corpus_name, word2Idx, idx2Label, char2Idx, char2Idx_caseless, pos2Idx):
     output_path = os.path.join(OUTPUT_DIR, corpus_name + ".txt")
     fwriter = open(output_path, "a+")
     files = os.listdir(corpus_path)
@@ -171,7 +119,7 @@ def tag_corpus(corpus_path, corpus_name, word2Idx, idx2Label, char2Idx, char2Idx
         sentences_char = addCharInformatioin(sentences)
 
         processed_sentences = padding(createMatrices_nolabel_char(sentences_char, word2Idx, char2Idx,
-                                                                  char2Idx_caseless, ner2Idx, pos2Idx))
+                                                                  char2Idx_caseless, pos2Idx))
 
         sentences = build_senteceMatrix(new_sentences)
 
@@ -198,10 +146,8 @@ char2Idx = np.load(charembedding_path, allow_pickle=True).item()
 
 char2Idx_caseless = np.load(charembedding_path, allow_pickle=True).item()
 
-ner2Idx = np.load(nerembedding_path, allow_pickle=True).item()
-
 pos2Idx = np.load(posembedding_path, allow_pickle=True).item()
 
 inv_labelIdx = {v: k for k, v in labelIdx.items()}
 
-tag_corpus(CORPUS_DIR, "HarveyTweet", word2Idx, inv_labelIdx, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx)
+tag_corpus(CORPUS_DIR, "HarveyTweet", word2Idx, inv_labelIdx, char2Idx, char2Idx_caseless, pos2Idx)

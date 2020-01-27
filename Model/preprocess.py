@@ -47,6 +47,7 @@ def createBatches(data):
         batch_len.append(z)
     return batches, batch_len
 
+
 def addCharInformatioin(Sentences):
     for i, sentence in enumerate(Sentences):
         for j, data in enumerate(sentence):
@@ -67,7 +68,7 @@ def padding(Sentences):
     return Sentences
 
 
-def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx):
+def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_caseless, pos2Idx):
     unknownIdx = word2Idx['UNKNOWN_TOKEN']
     paddingIdx = word2Idx['PADDING_TOKEN']
 
@@ -81,7 +82,6 @@ def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_casel
         charIndices = []
         charIndices2 = []
         labelIndices = []
-        nerIndices = []
         posIndices = []
         wordStrings = ""
 
@@ -108,10 +108,9 @@ def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_casel
             charIndices.append(charIdx1)
             charIndices2.append(charIdx2)
             labelIndices.append(label2Idx[label])
-            nerIndices.append(ner2Idx[ner])
             posIndices.append(pos2Idx[pos])
 
-        dataset.append([wordIndices, charIndices, charIndices2, labelIndices, nerIndices, posIndices, wordStrings[:-1]])
+        dataset.append([wordIndices, charIndices, charIndices2, labelIndices, posIndices, wordStrings[:-1]])
 
     return dataset
 
@@ -125,11 +124,10 @@ def iterate_minibatches_char(dataset,batch_len):
         labels = []
         words = []
         poss = []
-        ners = []
         data = dataset[start:i]
         start = i
         for dt in data:
-            t, ch, ch2, l, n, p, word = dt
+            t, ch, ch2, l, p, word = dt
             l = np.expand_dims(l, -1)
             tokens.append(t)
             char.append(ch)
@@ -137,8 +135,7 @@ def iterate_minibatches_char(dataset,batch_len):
             labels.append(l)
             words.append(word)
             poss.append(p)
-            ners.append(n)
 
-        yield np.asarray(labels), np.asarray(tokens), np.asarray(char), np.asarray(char2), np.asarray(ners),\
+        yield np.asarray(labels), np.asarray(tokens), np.asarray(char), np.asarray(char2),\
             np.asarray(poss), np.array(words, dtype=object)[:, np.newaxis]
 

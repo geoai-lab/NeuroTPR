@@ -12,32 +12,7 @@ from validation import compute_f1
 from ELMo import ElmoEmbeddingLayer
 
 epochs = 50
-Model_DIR = '/home/jiminwan/NeuroTPR_project/Model'
-
-
-def tag_dataset(dataset, model_path):
-    model2 = load_keras_model(model_path)
-    print("successully load model!")
-
-    correctLabels = []
-    predLabels = []
-    b = Progbar(len(dataset))
-    for i, data in enumerate(dataset):
-        token, char, labels, ner, pos, strings = data
-        tokens = np.asarray([token])
-        ners = np.asarray([ner])
-        chars = np.asarray([char])
-        poss = np.asarray([pos])
-        texts = np.asarray([strings])
-        pred = model2.predict([tokens, chars, ners, poss, texts], verbose=False)[0]
-        pred = pred.argmax(axis=-1)  # Predict the classes
-        correctLabels.append(labels)
-        predLabels.append(pred)
-        b.update(i)
-    b.update(i + 1)
-
-    return predLabels, correctLabels
-
+Model_DIR = '...'
 
 def get_ner_embedding():
     ner2Idx = {'LOCATION': 0, 'ORGANIZATION': 1, 'PERSON': 2, 'O': 3, 'PADDING_TOKEN': 4}
@@ -82,13 +57,11 @@ def load_keras_model(modelDIR):
 
 if __name__ == '__main__':
 
-    trainSentences1 = readfile("/home/jiminwan/NeuroTPR_project/Model/data/WikiTPR1000_train_add_features.txt")
-    trainSentences2 = readfile("/home/jiminwan/NeuroTPR_project/Model/data/wnut17train_add_features.txt")
-    testSentences = readfile("/home/jiminwan/NeuroTPR_project/Model/data/Harvey1000.txt")
+    trainSentences = readfile("...")
+    testSentences = readfile("...")
     print("Finishing reading the training data from file! ")
 
-    trainSentences1 = addCharInformatioin(trainSentences1)
-    trainSentences2 = addCharInformatioin(trainSentences2)
+    trainSentences = addCharInformatioin(trainSentences)
     print("Finishing adding the character information! ")
 
     labelSet = set()
@@ -96,12 +69,6 @@ if __name__ == '__main__':
     all_words = {}
 
     for sentence in trainSentences1:
-        for token, char, label, ner, pos in sentence:
-            labelSet.add(label)
-            posSet.add(pos)
-            all_words[token.lower()] = True
-
-    for sentence in trainSentences2:
         for token, char, label, ner, pos in sentence:
             labelSet.add(label)
             posSet.add(pos)
@@ -115,8 +82,6 @@ if __name__ == '__main__':
 
     # -------------- Process Other linguistic embedding ------------ #
     char2Idx, char2Idx_caseless = get_char_embedding()
-    # print(char2Idx_caseless)
-    ner2Idx = get_ner_embedding()
 
     label2Idx = {}
     for label in labelSet:
@@ -128,11 +93,9 @@ if __name__ == '__main__':
 
     pos2Idx["UNKNOWN"] = len(pos2Idx)
 
-    nerEmbeddings = np.identity(len(ner2Idx), dtype='float32')
     posEmbeddings = np.identity(len(pos2Idx), dtype='float32')
 
     idx2Label = {v: k for k, v in label2Idx.items()}
-    print(idx2Label)
 
     # -------------- Process the word embedding ------------ #
     print("Begin to add the word embedding information! ")
@@ -164,15 +127,12 @@ if __name__ == '__main__':
     np.save("outputs/idx2Label.npy", idx2Label)
     np.save("outputs/word2Idx.npy", word2Idx)
     np.save("outputs/char2Idx.npy", char2Idx)
-    np.save("outputs/ner2Idx.npy", ner2Idx)
     np.save("outputs/char2Idx_caseless.npy", char2Idx_caseless)
     np.save("outputs/pos2Idx.npy", pos2Idx)
 
     # ----------------------------------------#
 
-    train_set1 = padding(createMatrices_char(trainSentences1, word2Idx, label2Idx, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx))
-    train_set2 = padding(createMatrices_char(trainSentences2, word2Idx, label2Idx, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx))
-    # test_set = padding(createMatrices_char(testSentences, word2Idx, label2Idx, char2Idx, ner2Idx, pos2Idx))
+    train_set = padding(createMatrices_char(trainSentences, word2Idx, label2Idx, char2Idx, char2Idx_caseless, pos2Idx))
 
 
     # ------------- Create the char-word-ELMo-BiLSTM-CRF toponym recognition model -----------------#
@@ -206,19 +166,14 @@ if __name__ == '__main__':
     words_elmo = ElmoEmbeddingLayer(trainable=False)(words_elmo_input)
 
     output = concatenate([words, ner, pos, char_lstm1, char_lstm2, words_elmo], axis=-1)
-    # output = concatenate([words, char_lstm1, words_elmo], axis=-1)
 
     output_lstm = Bidirectional(LSTM(100, return_sequences=True, dropout=0.50, recurrent_dropout=0.25))(output)
 
     my_crf = CRF(len(label2Idx), sparse_target=True, name='CRF_layer')(output_lstm)
 
     model = Model(inputs=[words_input, character_input1, character_input2, ner_input, pos_input, words_elmo_input], outputs=[my_crf])
-    # model = Model(inputs=[words_input, character_input1, character_input2, words_elmo_input], outputs=[my_crf])
 
-    # my_optimizer = optimizers.SGD(loss='sparse_categorical_crossentropy', optimizer='sgd', lr=0.15, decay=0.99)
-    # model.compile(loss='sparse_categorical_crossentropy', optimizer='nadam')
-
-    model.compile(optimizer='adam', loss=crf_loss, metrics=[crf_viterbi_accuracy])
+    model.compile(optimizer='nadam', loss=crf_loss, metrics=[crf_viterbi_accuracy])
     # model.summary()
 
     # -----------------  Model Built Up Finished -------------------- #
@@ -226,17 +181,16 @@ if __name__ == '__main__':
     # ----------------- K-fold Training and validation ----------------- #
 
     # Training and validation dataset
-    train_batch1, train_batch_len1 = createBatches(train_set1)
-    train_batch2, train_batch_len2 = createBatches(train_set2)
+    train_batch, train_batch_len = createBatches(train_set)
 
 
     for epoch in range(epochs):
         train_accuracy = 0.0
         print("Epoch %d/%d" % (epoch, epochs))
-        a = Progbar(len(train_batch_len1))
-        for i, batch in enumerate(iterate_minibatches_char(train_batch1, train_batch_len1)):
-            labels, tokens, chars, chars2, ners, poss, strings = batch
-            results = model.train_on_batch([tokens, chars, chars2, ners, poss, strings], labels)
+        a = Progbar(len(train_batch_len))
+        for i, batch in enumerate(iterate_minibatches_char(train_batch, train_batch_len)):
+            labels, tokens, chars, chars2, poss, strings = batch
+            results = model.train_on_batch([tokens, chars, chars2, poss, strings], labels)
             train_accuracy += results[1]
             a.update(i)
         a.update(i + 1)
@@ -245,28 +199,4 @@ if __name__ == '__main__':
             break
 
     # -------------- Save moddel -----------------#
-    # save_keras_model(model, Model_DIR, name1="/outputs/NeuroTPR1.json", name2="/outputs/NeuroTPR1.h5")
-
-    for epoch in range(epochs):
-        train_accuracy = 0.0
-        print("Epoch %d/%d" % (epoch, epochs))
-        a = Progbar(len(train_batch_len2))
-        for i, batch in enumerate(iterate_minibatches_char(train_batch2, train_batch_len2)):
-            labels, tokens, chars, chars2, ners, poss, strings = batch
-            results = model.train_on_batch([tokens, chars, chars2, ners, poss, strings], labels)
-            train_accuracy += results[1]
-            a.update(i)
-        a.update(i + 1)
-        print(train_accuracy/(i+1))
-        if train_accuracy/(i+1) > 0.99:
-            break
-
-    # -------------- Save moddel -----------------#
-    save_keras_model(model, Model_DIR, name1="/outputs/NeuroTPR2.json", name2="/outputs/NeuroTPR2.h5")
-
-
-    #   Performance on test dataset
-    # print("Test the trained model on the testing dataset:")
-    # predLabels, correctLabels = tag_dataset(test_batch, Model_DIR)
-    # pre_test, rec_test, f1_test = compute_f1(predLabels, correctLabels, idx2Label)
-    # print("Test-Data: Prec: %.3f, Rec: %.3f, F1: %.3f" % (pre_test, rec_test, f1_test))
+    save_keras_model(model, Model_DIR, name1="/outputs/NeuroTPR.json", name2="/outputs/NeuroTPR.h5")
