@@ -12,7 +12,7 @@ RE_PATTERN = r'\< ref(.*?)\< \/ref \>'
 
 def upgrade_string(sstring):
     ssplit = sstring.split()
-    sstring2 = [word + "-WJM" for word in ssplit]
+    sstring2 = [word + "-LOC" for word in ssplit]
     return " ".join(sstring2)
 
 
@@ -54,16 +54,16 @@ def sentences_annotation(paragraph, savedir, file_name, if_random):
 
         for sentence in sens_txt:
             # print(len(sentence))
-            if sentence.find("-WJM") == -1:
+            if sentence.find("-LOC") == -1 or len(sentence) > 140:
                 continue
             tokens = word_tokenize(sentence)
             start_mark = True
             for token in tokens:
-                if token.endswith("-WJM") and start_mark is True:
-                    wf.write(token.replace("-WJM", "")+"\t"+"B-location"+"\n")
+                if token.endswith("-LOC") and start_mark is True:
+                    wf.write(token.replace("-LOC", "")+"\t"+"B-location"+"\n")
                     start_mark = False
-                elif token.endswith(("-WJM")):
-                    wf.write(token.replace("-WJM", "") + "\t" + "I-location"+"\n")
+                elif token.endswith(("-LOC")):
+                    wf.write(token.replace("-LOC", "") + "\t" + "I-location"+"\n")
                 else:
                     token = random_flipping(token, if_random)
                     start_mark = True
