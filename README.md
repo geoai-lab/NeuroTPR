@@ -4,7 +4,7 @@ This is Neuro-net ToPonym Recognition model for extracting locations from social
 The goal of this model is to improve the toponym recognition performance from social media messages that have various
 language irregularities, and fine-grained locations such as streets, natural landscapes, facilities, and townships.
 
-The full paper is available [here]: [NeuroTPR: A Neuro-net ToPonym Recognition Model for Extracting Locations from Social Media Messages](https://geoai.geog.buffalo.edu/publications/)
+The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model for Extracting Locations from Social Media Messages](https://geoai.geog.buffalo.edu/publications/)
 
 ### NeuroTPR architecture
 
@@ -32,3 +32,9 @@ The full paper is available [here]: [NeuroTPR: A Neuro-net ToPonym Recognition M
 ```bash
     python3 Model/geoparsing.py
  ```
+
+### Performance evaluation
+
+* Testing dataset: 1,000 tweets selected from Hurricane Harvey Twitter Dataset
+
+We test NeuroTPR and three baseline rule-based toponym recognizers using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance is presented in the table below:
