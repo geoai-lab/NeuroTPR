@@ -102,7 +102,7 @@ if __name__ == '__main__':
     word2Idx = {}
     wordEmbeddings = []
 
-    fEmbeddings = open("/home/jiminwan/NeuroTPR_project/embedding/glove.twitter.27B.200d.txt", encoding="utf-8")
+    fEmbeddings = open("../embedding/glove.twitter.27B.200d.txt", encoding="utf-8")
 
     for line in fEmbeddings:
         split = line.strip().split(" ")

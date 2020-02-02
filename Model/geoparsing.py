@@ -10,14 +10,14 @@ from keras_contrib.metrics import crf_viterbi_accuracy
 from prediction_pre import readfile_nolabel, createMatrices_nolabel_char, build_senteceMatrix, padding, \
     addCharInformatioin
 
-model_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/"
-OUTPUT_DIR = "/home/jiminwan/NeuroTPR_project/Model/data/testing"
-CORPUS_DIR = "/home/jiminwan/NeuroTPR_project/Model/data/testing/HarveyTweet"
-wordembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/word2Idx.npy"
-labelset_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/idx2Label.npy"
-charembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/char2Idx.npy"
-charembedding_path2 = "/home/jiminwan/NeuroTPR_project/Model/outputs2/char2Idx_caseless.npy"
-posembedding_path = "/home/jiminwan/NeuroTPR_project/Model/outputs2/pos2Idx.npy"
+model_path = "MODEL_SAVE_PATH"
+OUTPUT_DIR = "Output_file_name"
+CORPUS_DIR = "Testing_corpus_path"
+wordembedding_path = "../outputs/word2Idx.npy"
+labelset_path = "../outputs/idx2Label.npy"
+charembedding_path = "../outputs/char2Idx.npy"
+charembedding_path2 = "../outputs/char2Idx_caseless.npy"
+posembedding_path = "../outputs/pos2Idx.npy"
 
 
 def load_keras_model(modelDIR):
