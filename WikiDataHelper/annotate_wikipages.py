@@ -12,7 +12,7 @@ RE_PATTERN = r'\< ref(.*?)\< \/ref \>'
 
 def upgrade_string(sstring):
     ssplit = sstring.split()
-    sstring2 = [word + "-LOC" for word in ssplit]
+    sstring2 = ["-LOC"+word  for word in ssplit]
     return " ".join(sstring2)
 
 
@@ -43,26 +43,22 @@ def sentences_annotation(paragraph, savedir, file_name, if_random):
 
     else:
         if paragraph.find("< /ref >") != -1:
-            # print(paragraph)
-            # print("Find the ref token in :")
-            # print(file_name)
             paragraph = re.sub(RE_PATTERN, "", paragraph)
-            # print(paragraph)
-            # print("\n")
+
         sens_txt = sent_tokenize(paragraph)
         wf = open(join(savedir, file_name), "w+")
 
         for sentence in sens_txt:
-            # print(len(sentence))
-            if sentence.find("-LOC") == -1 or len(sentence) > 140:
+            if len(sentence) > 180 or sentence.find("-LOC") == -1:
                 continue
+
             tokens = word_tokenize(sentence)
             start_mark = True
             for token in tokens:
-                if token.endswith("-LOC") and start_mark is True:
+                if token.startswith("-LOC") and start_mark is True:
                     wf.write(token.replace("-LOC", "")+"\t"+"B-location"+"\n")
                     start_mark = False
-                elif token.endswith(("-LOC")):
+                elif token.startswith(("-LOC")):
                     wf.write(token.replace("-LOC", "") + "\t" + "I-location"+"\n")
                 else:
                     token = random_flipping(token, if_random)
@@ -86,10 +82,9 @@ def annotate_link_on_text(db_conn, readdir, savedir1, savedir2, filename="Alaska
     while link:
         link_text, link_entity = link.rstrip().split("||")
         if if_entity_exist_search(db_conn, link_entity):
-            # print(link_text)
             re_pattern = r'\b({0})\b'.format(link_text)
             if re.search(re_pattern, text):
-                text2 = text2.replace(link_text, upgrade_string(link_text))
+                text2 = re.sub(re_pattern, upgrade_string(link_text), text2)
             else:
                 break
 
@@ -98,10 +93,9 @@ def annotate_link_on_text(db_conn, readdir, savedir1, savedir2, filename="Alaska
     link_text = "United States"
     re_pattern = r'\b({0})\b'.format(link_text)
     if re.search(re_pattern, text):
-        text2 = text2.replace(link_text, upgrade_string(link_text))
-
+        text2 = re.sub(re_pattern, upgrade_string(link_text), text2)
     sentences_annotation(text2, savedir1, filename, if_random=False)
-    sentences_annotation(text2, savedir2, filename, if_random=True)
+    # sentences_annotation(text2, savedir2, filename, if_random=True)
 
 
 if __name__ == "__main__":
@@ -110,12 +104,12 @@ if __name__ == "__main__":
     annotate_data_path2 = "/home/jiminwan/NeuroTPR_project/WikiTPR/training_data3"
 
     db_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/DB/wikiDB.db"
-    raw_dataset_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR3000.txt"
-    raw_dataset_path2 = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR3000_randomflipping.txt"
+    raw_dataset_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR1500.txt"
+    raw_dataset_path2 = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR1500_randomflipping.txt"
     db_conn = create_connection(db_path)
     print("Successfully connect!")
 
-    filenames = sample(listdir(dump_page_path), 2000)
+    filenames = sample(listdir(dump_page_path), 1500)
     for fname in filenames:
         loc_name = (fname.replace('.txt', '')).split(",")[0]
         annotate_link_on_text(db_conn, dump_page_path, annotate_data_path, annotate_data_path2, fname, loc_name)
@@ -129,10 +123,10 @@ if __name__ == "__main__":
 
         wf.close()
 
-    with open(raw_dataset_path2, "w") as wf2:
-        for filename in listdir(annotate_data_path2):
-            if filename.endswith(".txt"):
-                text = open(join(annotate_data_path2, filename), "r").read()
-                wf2.write(text)
+    # with open(raw_dataset_path2, "w") as wf2:
+    #     for filename in listdir(annotate_data_path2):
+    #         if filename.endswith(".txt"):
+    #             text = open(join(annotate_data_path2, filename), "r").read()
+    #             wf2.write(text)
 
-        wf2.close()
+    #     wf2.close()
