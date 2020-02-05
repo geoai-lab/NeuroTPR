@@ -5,18 +5,15 @@ import xml
 import mwparserfromhell
 import re
 import os
-from SQLite3_utility import create_connection, insert_record
+from SQLite3_utility import create_connection, insert_record, get_counts
 
 
 filename = 'enwiki-20191101-pages-articles4.xml-p200511p352689.bz2'
-# parent_url = "https://dumps.wikimedia.org/enwiki/20191001/"
-#
-# url = parent_url + filename
 
-sqlite3_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/DB/wikiDB.db"
+sqlite3_path = "path_to_the_sqlite3_db"
 data_path = "../../.keras/datasets/" + filename
 
-save_file_dir = "/home/jiminwan/NeuroTPR_project/WikiTPR/training_data"
+save_file_dir = "path/save/the/raw/text/of/wikipage"
 
 
 def process_page(page_obj, pdir):
@@ -41,18 +38,19 @@ def process_page(page_obj, pdir):
     # print(wikilinks)
     if len(first_paragraph) <= 50:
         print("drop this one")
-    # else:
-    #     try:
-    #         with open(os.path.join(pdir, entity_name + ".txt"), "w+") as wf:
-    #             wf.write(first_paragraph)
-    #             wf.write("\n\n")
-    #             for item in wikilinks.keys():
-    #                 wf.write(item + "||" + wikilinks[item])
-    #                 wf.write("\n")
-    #             wf.close()
-    #
-    #     except:
-    #         print("something wrong!!!!")
+    else:
+    	## codes for extract the first paragraph contents
+        try:
+            with open(os.path.join(pdir, entity_name + ".txt"), "w+") as wf:
+                wf.write(first_paragraph)
+                wf.write("\n\n")
+                for item in wikilinks.keys():
+                    wf.write(item + "||" + wikilinks[item])
+                    wf.write("\n")
+                wf.close()
+    
+        except:
+            print("something wrong!!!!")
 
     print("-------------------------------")
 
@@ -69,10 +67,8 @@ handler = WikiXmlHandler(infoboxes)
 parser = xml.sax.make_parser()
 parser.setContentHandler(handler)
 # Iteratively process file
-old_pages = 0
-
 db_conn = create_connection(sqlite3_path)
-
+start_ID = get_counts(db_conn)
 
 for line in subprocess.Popen(['bzcat'],
                              stdin=open(data_path),
@@ -83,7 +79,4 @@ for line in subprocess.Popen(['bzcat'],
     if len(handler._pages) > old_pages:
         location = process_page(handler._pages[old_pages], save_file_dir)
         old_pages = len(handler._pages)
-        insert_record(db_conn, (101658+old_pages, str(location)))
-
-    if old_pages > 10000:
-        break
+        insert_record(db_conn, (start_ID+old_pages, str(location)))

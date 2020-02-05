@@ -34,6 +34,20 @@ def if_entity_exist_search(conn, input):
     return False
 
 
+def get_counts(conn):
+    """
+    Query tasks by priority
+    :param conn: the Connection object
+    :return: number
+    """
+    cur = conn.cursor()
+    cur.execute("SELECT count(*) FROM Toponyms")
+
+    num = cur.fetchone()[0]
+
+    return num
+
+
 def insert_record(conn, input_tuple):
     """
     Create a new project into the projects table
