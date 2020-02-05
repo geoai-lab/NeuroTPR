@@ -42,3 +42,9 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 * Testing dataset: 1,000 tweets selected from Hurricane Harvey Twitter Dataset
 
 We test NeuroTPR and three baseline rule-based toponym recognizers using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance is presented in the table below:
+
+|   Corpora   |  Precision |  Recall |	F_score |
+|-------------|:----------:|--------:|---------:|
+| HarveyTweet |  	0.755  |  0.695  |	0.724	|
+|  GeoCorpora |    0.817   |   0.745 |	0.799	|
+|    Ju2016   | 	-	   |   0.636 |	  - 	|
