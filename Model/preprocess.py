@@ -35,7 +35,8 @@ def createBatches(data):
     l = []
     for i in data:
         l.append(len(i[0]))
-    l = set(l)
+    l = list(set(l))
+    random.shuffle(l)
     batches = []
     batch_len = []
     z = 0
@@ -83,6 +84,7 @@ def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_casel
         charIndices2 = []
         labelIndices = []
         posIndices = []
+        # nerIndices = []
         wordStrings = ""
 
         for word, char, label, ner, pos in sentence:
@@ -109,13 +111,14 @@ def createMatrices_char(sentences, word2Idx, label2Idx, char2Idx, char2Idx_casel
             charIndices2.append(charIdx2)
             labelIndices.append(label2Idx[label])
             posIndices.append(pos2Idx[pos])
+            # nerIndices.append(ner2Idx[ner])
 
         dataset.append([wordIndices, charIndices, charIndices2, labelIndices, posIndices, wordStrings[:-1]])
 
     return dataset
 
 
-def iterate_minibatches_char(dataset,batch_len):
+def iterate_minibatches_char(dataset, batch_len):
     start = 0
     for i in batch_len:
         tokens = []
@@ -124,6 +127,7 @@ def iterate_minibatches_char(dataset,batch_len):
         labels = []
         words = []
         poss = []
+        # ners = []
         data = dataset[start:i]
         start = i
         for dt in data:
@@ -135,6 +139,7 @@ def iterate_minibatches_char(dataset,batch_len):
             labels.append(l)
             words.append(word)
             poss.append(p)
+            # ners.append(n)
 
         yield np.asarray(labels), np.asarray(tokens), np.asarray(char), np.asarray(char2),\
             np.asarray(poss), np.array(words, dtype=object)[:, np.newaxis]

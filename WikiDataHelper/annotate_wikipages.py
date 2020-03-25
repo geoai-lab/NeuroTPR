@@ -109,7 +109,9 @@ if __name__ == "__main__":
     db_conn = create_connection(db_path)
     print("Successfully connect!")
 
-    filenames = sample(listdir(dump_page_path), 1500)
+    ## define a number of sampled wikipedia articles 
+    sample_num = 3000
+    filenames = sample(listdir(dump_page_path), sample_num)
     for fname in filenames:
         loc_name = (fname.replace('.txt', '')).split(",")[0]
         annotate_link_on_text(db_conn, dump_page_path, annotate_data_path, annotate_data_path2, fname, loc_name)

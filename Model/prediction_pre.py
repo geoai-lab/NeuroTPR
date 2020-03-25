@@ -14,6 +14,33 @@ def build_senteceMatrix(sentences):
 
     return dataset
 
+
+def createMatrices_nolabel(sentences, word2Idx):
+    unknownIdx = word2Idx['UNKNOWN_TOKEN']
+    paddingIdx = word2Idx['PADDING_TOKEN']
+
+    dataset = []
+
+    for sentence in sentences:
+        wordIndices = []
+        indexIndices = []
+
+        for word, label in sentence:
+            if word in word2Idx:
+                wordIdx = word2Idx[word]
+            elif word.lower() in word2Idx:
+                wordIdx = word2Idx[word.lower()]
+            else:
+                wordIdx = unknownIdx
+
+            # Get the label and map to int
+            wordIndices.append(wordIdx)
+            indexIndices.append(str(label))
+        dataset.append([wordIndices, indexIndices])
+
+    return dataset
+
+
 def readfile_nolabel(filename):
     '''
     read file
@@ -44,7 +71,7 @@ def readfile_nolabel(filename):
     return sentences
 
 
-def createMatrices_nolabel_char(sentences, word2Idx, char2Idx, char2Idx_caseless, pos2Idx):
+def createMatrices_nolabel_char(sentences, word2Idx, char2Idx, char2Idx_caseless, ner2Idx, pos2Idx):
     unknownIdx = word2Idx['UNKNOWN_TOKEN']
     paddingIdx = word2Idx['PADDING_TOKEN']
 
@@ -57,6 +84,7 @@ def createMatrices_nolabel_char(sentences, word2Idx, char2Idx, char2Idx_caseless
         wordIndices = []
         charIndices1 = []
         charIndices2 = []
+        nerIndices = []
         posIndices = []
         wordStrings = ""
 
@@ -85,12 +113,13 @@ def createMatrices_nolabel_char(sentences, word2Idx, char2Idx, char2Idx_caseless
             wordIndices.append(wordIdx)
             charIndices1.append(charIdx1)
             charIndices2.append(charIdx2)
+            nerIndices.append(ner2Idx[ner])
             if pos in pos2Idx:
                 posIndices.append(pos2Idx[pos])
             else:
                 posIndices.append(pos2Idx['UNKNOWN'])
 
-        dataset.append([wordIndices, charIndices1, charIndices2, posIndices, wordStrings[:-1]])
+        dataset.append([wordIndices, charIndices1, charIndices2, nerIndices, posIndices, wordStrings[:-1]])
 
     return dataset
 
