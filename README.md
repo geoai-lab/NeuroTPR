@@ -24,6 +24,16 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 
 ### NeuroTPR training
 
+Dependencies:
+
+* Python 3.6+ and a recent version of numpy
+* Keras 2.3.0
+* Tensorflow 1.8.0+
+* Keras-contrib (https://github.com/keras-team/keras-contrib)
+* Tensorflow Hub (https://www.tensorflow.org/hub)
+* The rest should be installed alongside the four major libraries
+
+
 Optional: Add POS and NER features to your own annoated dataset
 
 ```bash
