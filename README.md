@@ -14,13 +14,12 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 
 ### Training Dataset
 
-* 599 tweets (have at least one location entity) selected from [WNUT-2017](https://github.com/leondz/emerging_entities_17)
+* 599 tweets (each has at least one location entity) selected from [WNUT-2017](https://github.com/leondz/emerging_entities_17)
 
 * A large geo-annotated dataset based on Wikipedia articles (See dataset construction details in WikiDataHelper)
 
 * Optional 50 crisis-related tweets from Hurricane Harvey Twitter Dataset: which contain door number addresses or street names
 
-* All datasets are converted into the same format as WNUT-2017
 
 ### NeuroTPR training
 
