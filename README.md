@@ -9,7 +9,7 @@ The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model
 ### NeuroTPR architecture
 
 <p align="center">
-<img align="center" src="Model_on_paper.png" width="600" />
+<img align="center" src="model_structure.png" width="600" />
 </p>
 
 ### Training Dataset
