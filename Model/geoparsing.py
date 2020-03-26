@@ -33,15 +33,6 @@ def load_keras_model(modelDIR):
 	return loaded_model
 
 
-def street_detector(texts):
-	results = {}
-	stree_pattern = r'I - ([0-9]+)'
-	for match in finditer(stree_pattern, texts):
-		results[match.group()] = match.span()
-
-	return results
-
-
 def tag_article(input, test_article, model, iinx, binx):
 	## per article conducting prediction
 

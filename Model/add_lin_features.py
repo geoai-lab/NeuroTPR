@@ -78,8 +78,8 @@ def iterate_file(filename_read, filename_write, st, cp):
 
 
 if __name__ == "__main__":
-    raw_dataset_path = "/Users/jiminwan/Data/RNN_geoparser/trainingdata/wnut17train2.txt"
-    processed_dataset_path = "/Users/jiminwan/Data/RNN_geoparser/trainingdata/wnut17train2_add_features.txt"
+    raw_dataset_path = "../trainingdata/wnut17train2.txt"
+    processed_dataset_path = "../trainingdata/wnut17train2_add_features.txt"
 
 
 
