@@ -95,17 +95,17 @@ def annotate_link_on_text(db_conn, readdir, savedir1, savedir2, filename="Alaska
     if re.search(re_pattern, text):
         text2 = re.sub(re_pattern, upgrade_string(link_text), text2)
     sentences_annotation(text2, savedir1, filename, if_random=False)
-    # sentences_annotation(text2, savedir2, filename, if_random=True)
+    
 
 
 if __name__ == "__main__":
-    dump_page_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/training_data"
-    annotate_data_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/training_data2"
-    annotate_data_path2 = "/home/jiminwan/NeuroTPR_project/WikiTPR/training_data3"
+    dump_page_path = "../WikiTPR/training_data"
+    annotate_data_path = "../WikiTPR/training_data2"
+    annotate_data_path2 = "../WikiTPR/training_data3"
 
-    db_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/DB/wikiDB.db"
-    raw_dataset_path = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR1500.txt"
-    raw_dataset_path2 = "/home/jiminwan/NeuroTPR_project/WikiTPR/WikiTPR1500_randomflipping.txt"
+    db_path = "../WikiTPR/DB/wikiDB.db"
+    raw_dataset_path = "../WikiTPR/WikiTPR1500.txt"
+    raw_dataset_path2 = "../WikiTPR/WikiTPR1500_randomflipping.txt"
     db_conn = create_connection(db_path)
     print("Successfully connect!")
 
@@ -124,11 +124,3 @@ if __name__ == "__main__":
                 wf.write(text)
 
         wf.close()
-
-    # with open(raw_dataset_path2, "w") as wf2:
-    #     for filename in listdir(annotate_data_path2):
-    #         if filename.endswith(".txt"):
-    #             text = open(join(annotate_data_path2, filename), "r").read()
-    #             wf2.write(text)
-
-    #     wf2.close()

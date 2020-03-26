@@ -43,19 +43,14 @@ def save_keras_model(model, modelDIR, name1="/outputs/NeuroTPR.json", name2="/ou
     print("Saved model to disk")
 
 
-def reset_weights(model):
-    session = K.get_session()
-    for layer in model.layers:
-        if hasattr(layer, 'kernel_initializer'):
-            layer.kernel.initializer.run(session=session)
-
-
 if __name__ == '__main__':
+	# Read training file as txt
     trainSentences1 = readfile("../data/WikiTPR3000_train_add_features.txt")
     trainSentences2 = readfile("../data/wnut17train2_add_features.txt")
     testSentences = readfile("../data/Harvey1000.txt")
     print("Finishing reading the training data from file! ")
 
+    # Process the character features from words
     trainSentences1 = addCharInformatioin(trainSentences1)
     trainSentences2 = addCharInformatioin(trainSentences2)
     print("Finishing adding the character information!!!")
@@ -64,17 +59,12 @@ if __name__ == '__main__':
     posSet = set()
     all_words = {}
 
-    for sentence in trainSentences1:
-        for token, char, label, ner, pos in sentence:
-            labelSet.add(label)
-            posSet.add(pos)
-            all_words[token.lower()] = True
-
-    for sentence in trainSentences2:
-        for token, char, label, ner, pos in sentence:
-            labelSet.add(label)
-            posSet.add(pos)
-            all_words[token.lower()] = True
+    for TrainSentences in [trainSentences1, trainSentences2]:
+    	for sentence in TrainSentences:
+	        for token, char, label, ner, pos in sentence:
+	            labelSet.add(label)
+	            posSet.add(pos)
+	            all_words[token.lower()] = True
 
     for sentence in testSentences:
         for token, label, ner, pos in sentence:
@@ -82,25 +72,29 @@ if __name__ == '__main__':
 
     print("Finishing cleaning the raw text! ")
 
-    # -------------- Process Other linguistic embedding ------------ #
+    # -------------- Process the linguistic embedding ------------ #
+    # Create character feature lookup dictionary
     char2Idx, char2Idx_caseless = get_char_embedding()
-    ner2Idx = get_ner_embedding()
 
+    # Create a mapping for the labels
     label2Idx = {}
     for label in labelSet:
         label2Idx[label] = len(label2Idx)
 
+    idx2Label = {v: k for k, v in label2Idx.items()}
+    print(idx2Label)
+
+    # Create pos feature lookup dictionary
     pos2Idx = {}
     for pos in posSet:
         pos2Idx[pos] = len(pos2Idx)
 
     pos2Idx["UNKNOWN"] = len(pos2Idx)
-
-    nerEmbeddings = np.identity(len(ner2Idx), dtype='float32')
     posEmbeddings = np.identity(len(pos2Idx), dtype='float32')
 
-    idx2Label = {v: k for k, v in label2Idx.items()}
-    print(idx2Label)
+    # Create ner feature lookup dictionary
+    ner2Idx = get_ner_embedding()
+    nerEmbeddings = np.identity(len(ner2Idx), dtype='float32')
 
     # -------------- Process the word embedding ------------ #
     print("Begin to add the word embedding information! ")
@@ -132,6 +126,7 @@ if __name__ == '__main__':
     wordEmbeddings = np.array(wordEmbeddings)
     print("Finishing constructing word-vectors dictionary! ")
 
+    # Save all embeddings and linguistic features lookup into files
     np.save("outputs/idx2Label.npy", idx2Label)
     np.save("outputs/word2Idx.npy", word2Idx)
     np.save("outputs/char2Idx.npy", char2Idx)
@@ -141,10 +136,11 @@ if __name__ == '__main__':
 
     # ----------------------------------------#
 
+    # Convert training senetences into Keras-compatitable format
     train_set1 = padding(createMatrices_char(trainSentences1, word2Idx, label2Idx, char2Idx, char2Idx_caseless, pos2Idx))
     train_set2 = padding(createMatrices_char(trainSentences2, word2Idx, label2Idx, char2Idx, char2Idx_caseless, pos2Idx))
 
-    # ------------- Create the char-word-ELMo-BiLSTM-CRF toponym recognition model -----------------#
+    # ------------- Build up NeuroTPR model architecture -----------------#
 
     p = {"label_length": len(idx2Label), "char_length": len(char2Idx), "char_length_caseless": len(char2Idx)-26}
     model = NeuroTPR_initiate(wordEmbeddings, posEmbeddings, params=p)
@@ -154,9 +150,9 @@ if __name__ == '__main__':
 
     # -----------------  Model Built Up Finished -------------------- #
 
-    # ----------------- Model Training and Saving ----------------- #
+    # ----------------- Model Training and Weights Saving ----------------- #
 
-    # Training and validation dataset
+    # Training senetences to batches
 
     train_batch1, train_batch_len1 = createBatches(train_set1)
     train_batch2, train_batch_len2 = createBatches(train_set2)
@@ -186,8 +182,6 @@ if __name__ == '__main__':
             a.update(i)
         a.update(i + 1)
         print(train_accuracy/(i+1))
-        # if train_accuracy/(i+1) > 0.999:
-        #       break
 
     # -------------- Save moddel -----------------#
 
