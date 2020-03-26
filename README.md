@@ -52,7 +52,8 @@ Train NeuroTPR (See codes for further modification to fit your own need)
     python3 Model/geoparsing.py
  ```
 
-See as the file example of predicting model's input and output
+example folder provides the file example of input and output for NeuroTPR prediction function
+
 
 ### Performance evaluation
 
@@ -64,6 +65,6 @@ We test NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoa
 
 |   Corpora   |  Precision |  Recall   |   F_score  |
 |-------------|:----------:|----------:|-----------:|
-| HarveyTweet |    0.755   |   0.695   |	0.724	|
-|  GeoCorpora |    0.817   |   0.745   |	0.779	|
-|    Ju2016   | 	 -	   |   0.636   |	  - 	|
+| HarveyTweet |    0.787   |   0.678   |	0.728	|
+|  GeoCorpora |    0.800   |   0.761   |	0.780	|
+|    Ju2016   | 	 -	   |   0.821   |	  - 	|
