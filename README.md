@@ -1,12 +1,12 @@
 # NeuroTPR
-This is Neuro-net ToPonym Recognition model for extracting locations from social media messages using deep Recurrent Neural Network. 
+NeuroTPR is a toponym recognition model designed for extracting locations from social media messages. It is based on a general Bidirectional Long Short-Term Memory network (BiLSTM) with a number of additional features, such as double layers of character embeddings, GloVe word embeddings, and contextualized word embeddings ELMo.
 
-The goal of this model is to improve the toponym (location name entity) recognition performance from social media messages that have various
-language irregularities, and fine-grained locations such as streets, natural landscapes, facilities, and townships.
+The goal of this model is to improve the accuracy of toponym recognition from social media messages that have various
+language irregularities, such as informal sentence structures, inconsistent upper and lower cases (e.g., “there is a HUGE fire near camino and springbrook rd”), name abbreviations (e.g., “bsu” for “Boise State University”), and misspellings. Particularly, NeuroTPR is designed to extract fine-grained locations such as streets, natural features, facilities, point of interest (POIs), and administrative units. We tested NeuroTPR in the application context of disaster response based on a dataset of tweets from Hurricane Harvey in 2017.
 
-The full paper is available at: [NeuroTPR: A Neuro-net ToPonym Recognition Model for Extracting Locations from Social Media Messages](https://geoai.geog.buffalo.edu/publications/)
+More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): NeuroTPR: A Neuro-net ToPonym Recognition model for extracting locations from social media messages. Transactions in GIS, accepted.](https://geoai.geog.buffalo.edu/publications/)
 
-### NeuroTPR architecture
+### NeuroTPR overall architecture
 
 <p align="center">
 <img align="center" src="model_structure.png" width="600" />
