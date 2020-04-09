@@ -11,8 +11,9 @@ More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): 
 
 <p align="center">
 <img align="center" src="model_structure.png" width="600" />
+    Figure 1. The overall architecture of NeuroTPR
 </p>
-Figure 1. The overall architecture of NeuroTPR
+
 
 
 ### Training Dataset
