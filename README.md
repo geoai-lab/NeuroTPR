@@ -17,11 +17,10 @@ Figure 1. The overall architecture of NeuroTPR
 
 ### Repository organization
 
-
-### How to use the trained NeuroTPR model for toponym recognition?
-
-
-### How to retrain NeuroTPR using your own data?
+* HarveyTweet: Harvey2017 dataset
+* Model folder: Python source codes to retrain NeuroTPR and use the trained model for toponym recognition 
+* WikiDataHelper: Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR
+* training_data: Three training data sets used in the default model training
 
 
 ### Training Dataset
@@ -33,7 +32,7 @@ Figure 1. The overall architecture of NeuroTPR
 * Optional 50 crisis-related tweets from Hurricane Harvey Twitter Dataset: which contain door number addresses or street names
 
 
-### NeuroTPR training
+### Retrain NeuroTPR using your own data?
 
 Dependencies:
 
@@ -57,7 +56,7 @@ Train NeuroTPR (See codes for further modification to fit your own need)
     python3 Model/train.py
  ```
 
-### NeuroTPR prediction on batch
+### Use the NeuroTPR model for toponym recognition
 
 ```bash
     python3 Model/geoparsing.py
