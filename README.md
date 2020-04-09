@@ -1,6 +1,6 @@
 # NeuroTPR
 
-### Overall Description
+### Overall description
 
 NeuroTPR is a toponym recognition model designed for extracting locations from social media messages. It is based on a general Bidirectional Long Short-Term Memory network (BiLSTM) with a number of additional features, such as double layers of character embeddings, GloVe word embeddings, and contextualized word embeddings ELMo.
 
@@ -15,6 +15,13 @@ More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): 
 Figure 1. The overall architecture of NeuroTPR
 </p>
 
+### Repository organization
+
+
+### How to use the trained NeuroTPR model for toponym recognition?
+
+
+### How to retrain NeuroTPR using your own data?
 
 
 ### Training Dataset
