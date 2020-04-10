@@ -23,7 +23,7 @@ Figure 1. The overall architecture of NeuroTPR
 * training_data: Three training data sets used in the default model training
 
 
-### Training Dataset
+### Training dataset
 
 * 599 tweets (each has at least one location entity) selected from [WNUT-2017](https://github.com/leondz/emerging_entities_17)
 
@@ -32,9 +32,7 @@ Figure 1. The overall architecture of NeuroTPR
 * Optional 50 crisis-related tweets from Hurricane Harvey Twitter Dataset: which contain door number addresses or street names
 
 
-### Retrain NeuroTPR using your own data?
-
-Dependencies:
+### Project dependencies:
 
 * Python 3.6+ and a recent version of numpy
 * Keras 2.3.0
@@ -43,8 +41,10 @@ Dependencies:
 * Tensorflow Hub (https://www.tensorflow.org/hub)
 * The rest should be installed alongside the four major libraries
 
+### Retrain NeuroTPR using your own data
 
-Optional: Add POS and NER features to your own annoated dataset
+If you wish to perform re-training on your own dataset, you have to add POS features to your own annoated dataset in CoNLL2003 format.
+You can use the following python codes to add POS features via NLTK tool
 
 ```bash
     python3 Model/add_lin_features.py
@@ -58,12 +58,13 @@ Train NeuroTPR (See codes for further modification to fit your own need)
 
 ### Use the NeuroTPR model for toponym recognition
 
+The following python codes provide a example to use the trained model to recognize toponyms from texts saved in CoNLL2003 format file.
+The toponym recognition output is in the format of:
+toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+
 ```bash
     python3 Model/geoparsing.py
  ```
-
-example folder provides the file example of input and output for NeuroTPR prediction function
-
 
 ### Performance evaluation
 
