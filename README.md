@@ -44,7 +44,7 @@ Figure 1. The overall architecture of NeuroTPR
 ### Retrain NeuroTPR using your own data
 
 If you wish to perform re-training on your own dataset, you have to add POS features to your own annoated dataset in CoNLL2003 format.
-You can use the following python codes to add POS features via NLTK tool
+You can use the following python codes to add POS features via NLTK tool.
 
 ```bash
     python3 Model/add_lin_features.py
