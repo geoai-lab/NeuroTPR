@@ -58,15 +58,16 @@ Train NeuroTPR (See codes for further modification to fit your own need)
 
 ### Use the NeuroTPR model for toponym recognition
 
-The following python codes provide a example to use the trained model to recognize toponyms from texts saved in CoNLL2003 format file.
-The toponym recognition output is in the format of:
-<br />
-<br />
-toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+The following python codes provide a example to use the trained model to recognize toponyms from texts.
+
+Input: Tokenized texts saved in CoNLL2003 format file
 
 ```bash
     python3 Model/geoparsing.py
  ```
+<br />
+Output format : toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+
 
 ### Performance evaluation
 
