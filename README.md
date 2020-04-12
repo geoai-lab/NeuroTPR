@@ -50,7 +50,10 @@ You can use the following python codes to add POS features via NLTK tool.
     python3 Model/add_lin_features.py
 ```
 
-Train NeuroTPR (See codes for further modification to fit your own need)
+Train NeuroTPR(See codes for further modification to fit your own need). You may need to:
+* Set up the file path to load word embeddings, training data;
+* Set up the file path to save the trained model;
+* Tune the key hyper-parameters of the NeuroTPR
 
 ```bash
     python3 Model/train.py
