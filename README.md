@@ -65,8 +65,7 @@ Input: Tokenized texts saved in CoNLL2003 format file
 ```bash
     python3 Model/geoparsing.py
  ```
-<br />
-Output format : toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+Model output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
 
 
 ### Performance evaluation
