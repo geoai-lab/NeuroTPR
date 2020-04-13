@@ -1,5 +1,6 @@
 # NeuroTPR
 
+
 ### Overall description
 
 NeuroTPR is a toponym recognition model designed for extracting locations from social media messages. It is based on a general Bidirectional Long Short-Term Memory network (BiLSTM) with a number of additional features, such as double layers of character embeddings, GloVe word embeddings, and contextualized word embeddings ELMo.
@@ -15,21 +16,14 @@ More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): 
 Figure 1. The overall architecture of NeuroTPR
 </p>
 
+
 ### Repository organization
 
-* HarveyTweet folder: Harvey2017 dataset
-* Model folder: Python source codes to retrain NeuroTPR and use the trained model for toponym recognition 
-* WikiDataHelper: Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR
-* training_data: Three training data sets used in the default model training
+* "HarveyTweet" folder: This folder contains the Harvey2017 dataset.
+* "Model" folder: This folder contains the Python source codes to use the trained NeuroTPR model or retrain NeuroTPR for toponym recognition.
+* "WikiDataHelper" folder: This folder contains the Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR.
+* "training_data" folder: This folder contains three training data sets (Wikipedia3000, WNUT2017, and 50 optional tweets from Hurricane Harvey) used for training NeuroTPR. Wikipedia3000 was automatically constructed from 3000 Wikipedia articles using our proposed workflow (more details can be found in the folder WikiDataHelper); WNUT2017 contains 599 tweets selected from [the original dataset](https://github.com/leondz/emerging_entities_17); and 50 optional tweets contain 50 crisis-related tweets from the Hurricane Harvey Twitter Dataset which contain door number addresses or street names.
 
-
-### Training dataset
-
-* 599 tweets (each has at least one location entity) selected from [WNUT-2017](https://github.com/leondz/emerging_entities_17)
-
-* A large geo-annotated dataset based on Wikipedia articles (See dataset construction details in WikiDataHelper)
-
-* Optional 50 crisis-related tweets from Hurricane Harvey Twitter Dataset: which contain door number addresses or street names
 
 
 ### Project dependencies:
