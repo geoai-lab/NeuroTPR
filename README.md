@@ -17,7 +17,7 @@ Figure 1. The overall architecture of NeuroTPR
 
 ### Repository organization
 
-* HarveyTweet: Harvey2017 dataset
+* HarveyTweet folder: Harvey2017 dataset
 * Model folder: Python source codes to retrain NeuroTPR and use the trained model for toponym recognition 
 * WikiDataHelper: Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR
 * training_data: Three training data sets used in the default model training
