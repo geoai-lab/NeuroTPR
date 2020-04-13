@@ -26,6 +26,22 @@ Figure 1. The overall architecture of NeuroTPR
 
 
 
+### Test datasets and model performance
+NeuroTPR was tested on three different datasets, which are:
+* HarveyTweet: 1,000 human-annotated tweets from 2017 Hurricane Harvey. This dataset is available in the "HarveyTweet" folder.
+* GeoCorproa:  1,689 human-annotated tweets from the [GeoCorpora Project](https://github.com/geovista/GeoCorpora)
+* Ju2016: 5,000 short sentences collected from Web pages and automatically annotated. This dataset is  available at the [EUPEG project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016)
+
+We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance of NeuroTPR on the three datasets is presented in the table below:
+
+|   Corpora   |  Precision |  Recall (Accuracy)  |   F_score  |
+|-------------|:----------:|----------:|-----------:|
+| HarveyTweet |    0.787   |   0.678   |	0.728	|
+|  GeoCorpora |    0.800   |   0.761   |	0.780	|
+|    Ju2016   | 	 -	   |   0.821   |	  - 	|
+
+
+
 ### Project dependencies:
 
 * Python 3.6+ and a recent version of numpy
@@ -65,16 +81,3 @@ Input: Tokenized texts saved in CoNLL2003 format file
 Model output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
 
 
-### Performance evaluation
-
-* HarveyTweet: 1,000 human annotated tweets derived from a large Twitter dataset collected during Hurricane Harvey
-* GeoCorproa:  1,689 tweets from the study of [GeoCorpora Project](https://github.com/geovista/GeoCorpora)
-* Ju2016: 5,000 short human generated sentecnes maintaned at [EUPEG Project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016)
-
-We test NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance of NeuroTPR on three dataset is presented in the table below:
-
-|   Corpora   |  Precision |  Recall   |   F_score  |
-|-------------|:----------:|----------:|-----------:|
-| HarveyTweet |    0.787   |   0.678   |	0.728	|
-|  GeoCorpora |    0.800   |   0.761   |	0.780	|
-|    Ju2016   | 	 -	   |   0.821   |	  - 	|
