@@ -34,7 +34,7 @@ NeuroTPR was tested on three different datasets, which are:
 
 We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance of NeuroTPR on the three datasets is presented in the table below:
 
-|   Corpora   |  Precision |  Recall (Accuracy)  |   F_score  |
+|   Corpora   |  Precision |   Recall  |   F_score  |
 |-------------|:----------:|----------:|-----------:|
 | HarveyTweet |    0.787   |   0.678   |	0.728	|
 |  GeoCorpora |    0.800   |   0.761   |	0.780	|
