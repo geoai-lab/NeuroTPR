@@ -20,7 +20,7 @@ Figure 1. The overall architecture of NeuroTPR
 ### Repository organization
 
 * "HarveyTweet" folder: This folder contains the Harvey2017 dataset with 1,000 human-annotated tweets.
-* "Model" folder: This folder contains the Python source codes to use the trained NeuroTPR model or retrain NeuroTPR for toponym recognition.
+* "Model" folder: This folder contains the Python source codes for using the trained NeuroTPR model or retraining NeuroTPR using your own data.
 * "WikiDataHelper" folder: This folder contains the Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR.
 * "training_data" folder: This folder contains three training data sets (Wikipedia3000, WNUT2017, and 50 optional tweets from Hurricane Harvey) used for training NeuroTPR. Wikipedia3000 was automatically constructed from 3000 Wikipedia articles using our proposed workflow (more details can be found in the folder WikiDataHelper); WNUT2017 contains 599 tweets selected from [the original dataset](https://github.com/leondz/emerging_entities_17); and 50 optional tweets contain 50 crisis-related tweets from the Hurricane Harvey Twitter Dataset which contain door number addresses or street names.
 
