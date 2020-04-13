@@ -29,8 +29,8 @@ Figure 1. The overall architecture of NeuroTPR
 ### Test datasets and model performance
 NeuroTPR was tested on three different datasets, which are:
 * HarveyTweet: 1,000 human-annotated tweets from 2017 Hurricane Harvey. This dataset is available in the "HarveyTweet" folder.
-* GeoCorproa:  1,689 human-annotated tweets from the [GeoCorpora Project](https://github.com/geovista/GeoCorpora)
-* Ju2016: 5,000 short sentences collected from Web pages and automatically annotated. This dataset is  available at the [EUPEG project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016)
+* GeoCorproa:  1,689 human-annotated tweets from the [GeoCorpora Project](https://github.com/geovista/GeoCorpora).
+* Ju2016: 5,000 short sentences collected from Web pages and automatically annotated. This dataset is  available at the [EUPEG project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016).
 
 We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance of NeuroTPR on the three datasets is presented in the table below:
 
@@ -39,6 +39,39 @@ We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/ge
 | HarveyTweet |    0.787   |   0.678   |	0.728	|
 |  GeoCorpora |    0.800   |   0.761   |	0.780	|
 |    Ju2016   | 	 -	   |   0.821   |	  - 	|
+
+
+### Use the trained NeuroTPR for toponym recognition
+
+The following python codes provide an example of using the trained NeuroTPR model to recognize toponyms from texts.
+
+Input: Tokenized texts saved in the CoNLL2003 format
+
+```bash
+    python3 Model/geoparsing.py
+ ```
+Output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+
+
+
+### Retrain NeuroTPR using your own data
+
+If you wish to re-train NeuroTPR using your own data, you first need to add POS features to your own annoated dataset in CoNLL2003 format. You can use the following python codes to add POS features via NLTK tool.
+
+```bash
+    python3 Model/add_lin_features.py
+```
+
+To train NeuroTPR, you need to:
+* Set up the file path to load word embeddings and training data;
+* Set up the file path to save the trained model;
+* Tune the key hyper-parameters of the NeuroTPR
+
+```bash
+    python3 Model/train.py
+ ```
+
+Please see detailed comments in our source codes for changing the settings.
 
 
 
@@ -50,34 +83,3 @@ We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/ge
 * Keras-contrib (https://github.com/keras-team/keras-contrib)
 * Tensorflow Hub (https://www.tensorflow.org/hub)
 * The rest should be installed alongside the four major libraries
-
-### Retrain NeuroTPR using your own data
-
-If you wish to perform re-training on your own dataset, you have to add POS features to your own annoated dataset in CoNLL2003 format.
-You can use the following python codes to add POS features via NLTK tool.
-
-```bash
-    python3 Model/add_lin_features.py
-```
-
-Train NeuroTPR(See codes for further modification to fit your own need). You may need to:
-* Set up the file path to load word embeddings, training data;
-* Set up the file path to save the trained model;
-* Tune the key hyper-parameters of the NeuroTPR
-
-```bash
-    python3 Model/train.py
- ```
-
-### Use the NeuroTPR model for toponym recognition
-
-The following python codes provide a example to use the trained model to recognize toponyms from texts.
-
-Input: Tokenized texts saved in CoNLL2003 format file
-
-```bash
-    python3 Model/geoparsing.py
- ```
-Model output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
-
-
