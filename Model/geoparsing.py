@@ -20,13 +20,13 @@ posembedding_path = "../Model/outputs/pos2Idx.npy"
 
 
 def load_keras_model(modelDIR):
-	json_file = open(modelDIR + 'NeuroTPR2.json', 'r')
+	json_file = open(modelDIR + 'NeuroTPR.json', 'r')
 	loaded_model_json = json_file.read()
 	json_file.close()
 	loaded_model = model_from_json(loaded_model_json, custom_objects={
 		'CRF': CRF, 'crf_loss': crf_loss, "crf_viterbi_accuracy": crf_viterbi_accuracy,
 		'ElmoEmbeddingLayer': ElmoEmbeddingLayer})
-	loaded_model.load_weights(modelDIR + 'NeuroTPR2.h5')
+	loaded_model.load_weights(modelDIR + 'NeuroTPR.h5')
 	print("Loaded NeuroTPR model from disk")
 	return loaded_model
 
