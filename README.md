@@ -43,15 +43,20 @@ We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/ge
 
 ### Use the trained NeuroTPR for toponym recognition
 
-The following python codes provide an example of using the trained NeuroTPR model to recognize toponyms from texts.
+1. Input is a single raw tweet: use function geoparse(text) from Model/geoparse.py file
 
-Input: Tokenized texts saved in the CoNLL2003 format
+Input Example: "The City of Dallas has now opened Shelter #3 at Samuel Grand Recreation Center, 6200 E. Grand Ave. #HurricaneHarvey"
+
+Model output (JSON): [{"location_name": "City of Dallas", "start_idx": 5, "end_idx": 18}, {"location_name": "Samuel Grand Recreation Center", "start_idx": 50, "end_idx": 79}]
+
+
+2. Input is a tweet dataset saved in the CoNLL2003 format
 
 ```bash
-    python3 Model/geoparsing.py
+    python3 Model/geoparse_dataset.py
  ```
-Output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
 
+Output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
 
 
 ### Retrain NeuroTPR using your own data
@@ -74,12 +79,12 @@ To train NeuroTPR, you need to:
 Please see detailed comments in our source codes for changing the settings.
 
 
-
 ### Project dependencies:
 
 * Python 3.6+ and a recent version of numpy
+* NLTK 3.5
 * Keras 2.3.0
 * Tensorflow 1.8.0+
 * Keras-contrib (https://github.com/keras-team/keras-contrib)
 * Tensorflow Hub (https://www.tensorflow.org/hub)
-* The rest should be installed alongside the four major libraries
+* The rest should be installed alongside the five major libraries
