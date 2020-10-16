@@ -32,8 +32,8 @@ Using the pretrained NeuroTPR model for toponym recognition will need the follow
 
 1. Setup the virtual environment: Please create a new virtual environment using Anaconda and install the dependent packages using the following commands (please run them in the same order below):
  ```bash
-	condo create -n NeuroTPR python=3.6
-	condo activate NeuroTPR
+	conda create -n NeuroTPR python=3.6
+	conda activate NeuroTPR
 	conda install keras -c conda-forge
 	pip install git+https://www.github.com/keras-team/keras-contrib.git
 	pip install neurotpr
@@ -53,13 +53,13 @@ The input of the "topo_recog" function is a string, and the output is a list of 
 
 
 ### Combine NeuroTPR with a geolocation service
-NeuroTPR is a toponym recognition model, which means that it will not assign geographic coordinates to the recognized toponyms. If you would like to add coordinates to the recognized toponyms, you could use the [geocoding function from GeoPandas](https://geopandas.org/geocoding.html), [Google Place API](https://developers.google.com/maps/documentation/javascript/places), or other services. Note that these services are not doing place name disambiguation for you, since they don't know the contexts under which these toponyms are mentioned. 
+NeuroTPR is a toponym recognition model, which means that it will not assign geographic coordinates to the recognized toponyms. If you would like to add coordinates to the recognized toponyms, you could use the [geocoding function from GeoPandas](https://geopandas.org/geocoding.html), [Google Place API](https://developers.google.com/maps/documentation/javascript/places), or other services. Note that these services are not doing place name disambiguation for you, since they don't know the contexts under which these toponyms are mentioned. However, it would be fine to use one of these services if the toponyms in your text are not highly ambiguous.
 
 
 
 ### Retrain NeuroTPR using your own data
 
-Retraining NeuroTPR using your own data will be more complicated. You first need to add POS features to your own annotated dataset in CoNLL2003 format (you can check our shared training data for an example of the format). You can then use the following python codes to add POS features via the NLTK library.
+Retraining NeuroTPR using your own data will be more complicated. You first need to add POS features to your own annotated dataset in CoNLL2003 format (you can check our shared training data for an example of the format). You can then use the following Python code to add POS features via the NLTK library.
 
 ```bash
     python3 SourceCode/neurotpr/add_lin_features.py
@@ -72,7 +72,7 @@ To train NeuroTPR, you need to:
 ```bash
     python3 SourceCode/neurotpr/train.py
  ```
-More details about training NeuroTPR are available in the comments of our source-code files. 
+More details about training NeuroTPR are available in the comments of the source code files shared in this repository. 
 
 
 ### Project dependencies:
