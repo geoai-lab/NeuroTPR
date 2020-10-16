@@ -1,0 +1,27 @@
+Harvey
+Elderly
+dad
+,
+brother
+,
+daughter
+and
+3yr
+old
+grandson
+no
+power
+,
+food
+.
+Senior
+living
+community
+,
+Magnolia	B-location
+Estates	I-location
+,
+at
+101
+Normandy	B-location
+St	I-location

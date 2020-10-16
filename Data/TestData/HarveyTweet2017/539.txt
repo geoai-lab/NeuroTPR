@@ -1,0 +1,31 @@
+If
+anyone
+in
+the
+Aldine	B-location
+area
+has
+a
+boat
+please
+go
+to
+425
+Shane	B-location
+St	I-location
+Apt
+4
+77037
+,
+friend
+is
+stuck
+w
+5
+pets
+and
+needs
+evac
+houston	B-location
+htx
+harve

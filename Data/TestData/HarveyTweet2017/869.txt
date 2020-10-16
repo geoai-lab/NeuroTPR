@@ -1,0 +1,31 @@
+Thunder
+Lightning
+&
+Rain
+comin
+'
+over
+head
+@
+Red	B-location
+Bluff	I-location
+Rd	I-location
+&
+Fairmont	I-location
+Pkwy	I-location
+,
+Pasadena	B-location
+,
+TX	B-location
+(
+normal
+floods
+4
+area
+)
+Harvey
+2017-08-
+27
+10:17
+PM
+CD

@@ -1,0 +1,15 @@
+Harvey
+HoustonStrong
+Shltering
+INFO
+:
+NRG	B-location
+Park	I-location
+is
+now
+open
+as
+an
+emergency
+shelter
+.

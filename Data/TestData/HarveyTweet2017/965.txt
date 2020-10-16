@@ -1,0 +1,22 @@
+South	B-location
+Main	I-location
+is
+clear
+so
+they
+need
+to
+go
+ahead
+and
+make
+NRG	B-location
+Park	I-location
+a
+shelter
+.
+I'll
+meet
+y'all
+there
+HurricaneHarve

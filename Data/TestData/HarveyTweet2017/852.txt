@@ -1,0 +1,22 @@
+This
+is
+the
+church
+in
+Annaville	B-location
+handing
+out
+food
+and
+supplies
+to
+Harvey
+victims
+.
+The
+address
+is
+13024
+Leopard	B-location
+St	I-location
+.

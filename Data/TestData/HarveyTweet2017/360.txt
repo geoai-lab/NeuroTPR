@@ -1,0 +1,17 @@
+Come
+help
+us
+out
+rayford	B-location
+rd	I-location
+by
+Kroger
+we
+need
+all
+the
+help
+we
+can
+get
+hurricaneharvey

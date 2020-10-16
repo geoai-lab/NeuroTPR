@@ -1,0 +1,17 @@
+218
+photos
+of
+pets
+being
+sheltered
+at
+Ford	B-location
+Park	I-location
+.
+Is
+one
+of
+these
+yours
+?
+harvey

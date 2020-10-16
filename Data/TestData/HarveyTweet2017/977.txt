@@ -1,0 +1,21 @@
+Stranded
+on
+beechnut	B-location
+Rd	I-location
+in
+Houston	B-location
+with
+a
+damn
+race
+car
+.
+With
+2
+%
+of
+battery
+life
+on
+phone
+Harve

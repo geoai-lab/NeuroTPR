@@ -1,0 +1,14 @@
+Beyoncé	
+visits
+St	B-location
+.	I-location
+John's	I-location
+School	I-location
+in
+downtown
+Houston	B-location
+to
+meet
+with
+HurricaneHarvey
+survivors

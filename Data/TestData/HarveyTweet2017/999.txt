@@ -1,0 +1,26 @@
+Texans
+helping
+Texans
+is
+what
+is
+going
+to
+help
+bring
+relief
+to
+harvey
+victims
+.
+Head
+down
+to
+1800
+N	B-location
+.	I-location
+Lamar	I-location
+St	I-location
+.	I-location
+and
+…

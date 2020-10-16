@@ -1,0 +1,14 @@
+student
+interns
+taking
+makeshift
+pharmacy
+inventory
+at
+NRG	B-location
+Park	I-location
+!
+GoCoogs
+CoogsCare
+HurricaneHarvey
+…

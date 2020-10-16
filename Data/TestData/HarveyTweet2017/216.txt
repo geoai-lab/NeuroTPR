@@ -1,0 +1,13 @@
+River	B-location
+Oaks	I-location
+Market	I-location
+is
+already
+out
+of
+brie
+cheese
+.
+Dang
+Harvey
+!

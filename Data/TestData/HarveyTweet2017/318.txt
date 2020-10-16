@@ -1,0 +1,19 @@
+Photos
+On
+:
+BEFORE
+&
+AFTER
+...
+Fannin	B-location
+St	I-location
+&
+Commerce	B-location
+St	I-location
+,
+Houston	B-location
+,
+TX	B-location
+77002
+...
+houstonflood

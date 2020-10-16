@@ -1,0 +1,10 @@
+houstonflood
+AIG
+building
+spotted
+on
+Allen	B-location
+Parkway	I-location
+along
+Buffalo	B-location
+Bayou	I-location

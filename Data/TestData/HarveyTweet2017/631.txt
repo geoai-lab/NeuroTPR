@@ -1,0 +1,15 @@
+My
+aunt
+and
+uncle's
+residence
+street
+in
+Port	B-location
+Arthur	I-location
+,
+Texas	B-location
+.
+THANKS
+TO
+Harvey

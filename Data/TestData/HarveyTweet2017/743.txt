@@ -1,0 +1,16 @@
+VIDEO
+:
+Neutral
+ground
+on
+Carrollton	B-location
+Ave	I-location
+filled
+with
+parked
+,
+seeking
+higher
+ground
+.
+Harvey

@@ -1,0 +1,25 @@
+anyone
+near
+terry	B-location
+hershey	I-location
+park	I-location
+who
+can
+help
+us
+out
+?
+?
+?
+we
+can
+house
+them
+but
+we
+cant
+get
+to
+them
+HoustonFloods
+…

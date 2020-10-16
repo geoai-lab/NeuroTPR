@@ -1,0 +1,19 @@
+even
+cute
+pups
+like
+treats
+to
+support
+your
+HurricaneHarvey
+efforts
+.
+Stop
+by
+510
+Brooks	B-location
+St	I-location
+in
+Sugar	B-location
+Land	I-location

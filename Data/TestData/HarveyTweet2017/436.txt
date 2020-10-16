@@ -1,0 +1,20 @@
+First	B-location
+St	I-location
+Baptist	I-location
+Church	I-location
+needs
+water
+&
+cleaning
+supplies
+for
+Port	B-location
+Arthur	I-location
+community
+flooded
+by
+Harvey
+.
+548
+Abe
+…

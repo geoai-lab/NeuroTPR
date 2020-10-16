@@ -1,0 +1,20 @@
+The
+eye
+wall
+of
+a
+major
+hurricane
+at
+their
+doorstep
+...
+But
+for
+God's
+grace
+is
+Tampa	B-location
+Bay	I-location
+!
+harvey

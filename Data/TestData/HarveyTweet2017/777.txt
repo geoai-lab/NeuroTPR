@@ -1,0 +1,24 @@
+We
+have
+partnered
+with
+Wayfinders	B-location
+Church	I-location
+to
+collect
+Crisis
+Care
+Kit
+Items
+!
+We
+are
+located
+at
+401
+Center	B-location
+St	I-location
+,
+Kyle	B-location
+TX	B-location
+…

@@ -1,0 +1,19 @@
+Streets
+Flooded
+:
+Almeda	B-location
+Genoa	I-location
+Rd	I-location
+.	I-location
+from
+Windmill	B-location
+Lakes	I-location
+Blvd	I-location
+.	I-location
+to
+Rowlett	B-location
+Rd	I-location
+.	I-location
+Harvey
+HurricaneHarvey
+Housto	B-location

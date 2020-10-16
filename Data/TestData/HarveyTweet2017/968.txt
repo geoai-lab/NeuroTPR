@@ -1,0 +1,24 @@
+A
+tornado
+touched
+down
+in
+Missouri	B-location
+City	I-location
+early
+Saturday
+.
+Here
+,
+debris
+is
+scattered
+in
+a
+resident's
+yard
+.
+Photo
+by
+Pu
+…

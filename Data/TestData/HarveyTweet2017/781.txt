@@ -1,0 +1,13 @@
+White	B-location
+Oak	I-location
+Bayou	I-location
+at
+Houston	B-location
+Avenue	I-location
+1:00
+pm
+Saturday
+Houston	B-location
+Texas	B-location
+HurricaneHarvery
+Harvey2017

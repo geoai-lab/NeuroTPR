@@ -1,0 +1,24 @@
+Western	B-location
+Ridge	I-location
+Street	I-location
+was
+completely
+dry
+@
+12AM
+.
+Water's
+nearly
+up
+to
+neighbor's
+tires
+across
+street
+.
+Hoping
+for
+a
+lull
+in
+…

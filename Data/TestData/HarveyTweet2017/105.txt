@@ -1,0 +1,14 @@
+PrayForPortA
+-
+Drive
+around
+Roberts	B-location
+Point	I-location
+Park	I-location
+in
+Port	B-location
+Aransas	I-location
+,
+Texas	B-location
+.
+Harvey

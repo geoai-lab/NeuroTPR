@@ -1,0 +1,24 @@
+So
+this
+was
+from
+around
+1:30
+water
+is
+up
+to
+the
+sidewalk
+here
+in
+deer	B-location
+park	I-location
+and
+it
+was
+close
+to
+my
+knees
+…

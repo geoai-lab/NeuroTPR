@@ -1,0 +1,20 @@
+NEWS
+ASAP
+Horse
+Trailer
+needed
+for
+4
+horses
+Call
+Rachael
+832-482-7603
+5005
+Lord	B-location
+Rd	I-location
+,
+Cosby	B-location
+,
+TX	B-location
+HurricaneHarvey
+…

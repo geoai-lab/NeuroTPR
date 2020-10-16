@@ -1,0 +1,21 @@
+In
+Bastrop	B-location
+,
+entry
+to
+Fisherman's	B-location
+Park	I-location
+next
+to
+the
+Colorado	B-location
+River	I-location
+remains
+closed
+,
+first
+responders
+patrolling
+the
+ar
+…

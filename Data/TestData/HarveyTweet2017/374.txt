@@ -1,0 +1,19 @@
+City	B-location
+of	I-location
+Beaumont	I-location
+giving
+away
+up
+to
+16
+sandbags
+per
+car
+over
+on
+2610
+Concord	B-location
+Street	I-location
+ahead
+of
+Harvey

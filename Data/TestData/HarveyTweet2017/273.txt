@@ -1,0 +1,26 @@
+A
+touch
+of
+blue
+in
+the
+sky
+as
+workers
+erect
+the
+surge
+wall
+leading
+to
+Port	B-location
+Aransas	I-location
+,
+TX	B-location
+.
+The
+last
+ferry
+has
+d
+…

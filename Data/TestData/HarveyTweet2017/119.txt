@@ -1,0 +1,18 @@
+harvey2017texas
+HarveyStorm
+Red
+Roof
+Inn
+and
+La
+Quinta
+At
+Mason	B-location
+Rd	I-location
+take
+animals
+.
+Don't
+leave
+your
+animal

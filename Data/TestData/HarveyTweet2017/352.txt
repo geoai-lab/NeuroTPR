@@ -1,0 +1,19 @@
+Can
+anyone
+confirm
+rescue
+in
+on
+the
+way
+to
+8322
+Talton	B-location
+Street	I-location
+in
+Houston	B-location
+?
+Rescue
+needed
+.
+houstonflood

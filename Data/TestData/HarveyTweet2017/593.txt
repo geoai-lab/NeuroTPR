@@ -1,0 +1,15 @@
+Pics
+showing
+the
+current
+Kelly	B-location
+St	I-location
+.	I-location
+between
+Gold	B-location
+St	I-location
+.	I-location
+and
+Elysian	B-location
+St	I-location
+.	I-location

@@ -1,0 +1,14 @@
+Any
+buildings
+still
+standing
+Rowe	B-location
+St	I-location
+.	I-location
+&
+Cedar	B-location
+&
+Rose	B-location
+in
+Rockport	B-location
+.

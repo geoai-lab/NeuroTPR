@@ -1,0 +1,23 @@
+Buffalo	B-location
+Bayou	I-location
+at
+the
+West	B-location
+Belt	I-location
+Drive	I-location
+location
+has
+broken
+their
+record
+crest
+and
+is
+forecast
+to
+still
+rise
+a
+few
+mor
+…

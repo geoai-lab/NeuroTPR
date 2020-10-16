@@ -1,0 +1,23 @@
+City	B-location
+of	I-location
+Dallas	I-location
+is
+preparing
+to
+open
+its
+first
+shelter
+for
+coastal
+guests
+at
+Walnut	B-location
+Hill	I-location
+Rec	I-location
+Center	I-location
+10011
+Midway	B-location
+Rd	I-location
+.
+HurricaneHarve

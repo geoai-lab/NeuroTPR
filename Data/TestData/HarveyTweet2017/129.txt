@@ -1,0 +1,12 @@
+houstonflood
+Houston
+flood
+2017
+-
+In
+Spotts	B-location
+park	I-location
+and
+Waugh	B-location
+drive	I-location
+77007

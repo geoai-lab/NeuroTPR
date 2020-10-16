@@ -1,0 +1,22 @@
+Hangin
+'
+with
+Rep
+.
+Dean
+-
+Harvey
+relief
+supply
+drive
+right
+now
+at
+St	B-location
+Matthew's	I-location
+Catholic	I-location
+Church	I-location
+in
+Longview	B-location
+.
+...

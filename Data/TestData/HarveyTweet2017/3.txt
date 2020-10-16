@@ -1,0 +1,12 @@
+Harvey
+Relief
+News
+:
+Beaumont	B-location
+,
+Texas	B-location
+HurricaneHarvey
+supplies
+in
+Ford	B-location
+Park	I-location

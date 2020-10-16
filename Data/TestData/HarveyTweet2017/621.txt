@@ -1,0 +1,19 @@
+Making
+Texas-shaped
+cookies
+for
+a
+Harvey
+bake
+sale
+(
+this
+afternoon
+at
+3rd	B-location
+St	I-location
+&
+Prospect	B-location
+Park	I-location
+West
+)

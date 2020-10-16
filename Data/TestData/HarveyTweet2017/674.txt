@@ -1,0 +1,16 @@
+People
+been
+Rescued
+right
+now
+at
+Mason	B-location
+rd	I-location
+and
+university	B-location
+park	I-location
+dr	I-location
+.
+KatyTX	B-location
+HurricaneHarvey
+…

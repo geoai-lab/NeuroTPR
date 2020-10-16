@@ -1,0 +1,12 @@
+In
+front
+of
+our
+home
+in
+Harbor	B-location
+Park	I-location
+-
+League	B-location
+City	I-location
+HurricaneHarvey

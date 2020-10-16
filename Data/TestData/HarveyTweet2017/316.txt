@@ -1,0 +1,13 @@
+Austin	B-location
+TX	B-location
+road
+closures
+,
+flash
+flooding
+reported
+.
+Austin	B-location
+TX	B-location
+flood
+NEWS

@@ -1,0 +1,12 @@
+VIDEO
+:
+Overland	B-location
+Park	I-location
+couple
+rides
+out
+storm
+in
+Houston	B-location
+hotel
+-

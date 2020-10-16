@@ -1,0 +1,23 @@
+heb
+on
+rayford	B-location
+rd	I-location
+@
+grand	B-location
+parkway	I-location
+will
+close
+at
+3
+pm
+today
+.
+Plenty
+of
+supplies
+available
+still
+.
+HurricaneHarvey
+spring	B-location
+Houston	B-location

@@ -1,0 +1,13 @@
+Residential
+street
+flooded
+in
+the
+Washington	B-location
+Ave	I-location
+/
+Westcott	B-location
+area
+houwx
+Harvey
+HurricaneHarvey

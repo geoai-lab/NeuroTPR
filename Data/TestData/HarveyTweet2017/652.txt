@@ -1,0 +1,18 @@
+Not
+a
+leisurely
+kayaking
+trip
+down
+a
+bayou
+.
+Actually
+a
+flooded
+street
+in
+Briargrove	B-location
+Park	I-location
+.
+HoustonFloods

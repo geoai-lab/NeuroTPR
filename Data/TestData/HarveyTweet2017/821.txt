@@ -1,0 +1,16 @@
+The
+Main	B-location
+Street	I-location
+Bridge	I-location
+over
+Brays	B-location
+Bayou	I-location
+is
+above
+water
+and
+taking
+traffic
+.
+Harvey
+houwx

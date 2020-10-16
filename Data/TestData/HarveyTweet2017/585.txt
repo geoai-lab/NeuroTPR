@@ -1,0 +1,25 @@
+Jesse	B-location
+H	I-location
+.	I-location
+Jones	I-location
+Park	I-location
+&
+Nature	B-location
+Center	I-location
+where
+we
+run
+down
+block
+from
+us
+is
+all
+underwater
+1st
+pic
+is
+yesterday
+2nd
+this
+…

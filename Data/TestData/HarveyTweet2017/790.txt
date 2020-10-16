@@ -1,0 +1,21 @@
+We've
+opened
+an
+additional
+lane
+opened
+on
+I	B-location
+-	I-location
+37	I-location
+NB
+to
+evacuate
+Corpus	B-location
+-
+this
+is
+NOT
+contraflow
+.
+HurricaneHarvey

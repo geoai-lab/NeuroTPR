@@ -1,0 +1,23 @@
+Flooding
+at
+my
+dad's
+apartment
+complex
+on
+Wilcrest	B-location
+Dr	I-location
+.	I-location
+which
+backs
+up
+to
+Buffalo	B-location
+Bayou	I-location
+.
+Water
+waist
+deep
+.
+houwx
+…

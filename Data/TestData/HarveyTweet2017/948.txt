@@ -1,0 +1,15 @@
+Sharing
+for
+our
+artist
+friends
+affected
+by
+hurricaneharvey
+Lyons	B-location
+Avenue	I-location
+Renaissance
+Festival
+The	B-location
+DeLuxe	I-location
+Theater	I-location

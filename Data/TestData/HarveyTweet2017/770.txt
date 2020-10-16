@@ -1,0 +1,21 @@
+Weeks
+ago
+,
+Eleanor	B-location
+Tinsley	I-location
+Park	I-location
+hosted
+Texas	B-location
+'
+biggest
+Independence
+Day
+party
+.
+Now
+,
+it's
+part
+of
+.
+…

@@ -1,0 +1,21 @@
+Unrelated
+to
+Harvey
+,
+here's
+a
+glimpse
+of
+Commerce	B-location
+St	I-location
+.	I-location
+Bridge	I-location
+history
+,
+to
+be
+published
+in
+upcoming
+book
+!

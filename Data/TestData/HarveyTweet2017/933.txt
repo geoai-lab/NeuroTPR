@@ -1,0 +1,16 @@
+STOP
+the
+rumor
+mill
+.
+False
+accusations
+re
+:
+Animal
+Rescue
+Shelter
+at
+Ford	B-location
+Park	I-location
+.

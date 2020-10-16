@@ -1,0 +1,20 @@
+Help
+is
+needed
+at
+500
+Neches	B-location
+Ave	I-location
+Port	B-location
+Arthur	I-location
+,
+TX	B-location
+woman
+trapped
+in
+attic
+.
+Please
+share
+!
+HurricaneHarve

@@ -1,0 +1,13 @@
+St	B-location
+.	I-location
+Frederick	I-location
+High	I-location
+student
+holds
+food
+drive
+for
+Harvey
+relief
+-
+-

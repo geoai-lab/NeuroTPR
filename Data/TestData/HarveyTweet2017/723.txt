@@ -1,0 +1,18 @@
+elderly
+disabled
+woman
+in
+waist
+high
+rain
+needs
+assistance
+11910
+Drifting	B-location
+Winds	I-location
+Drive	I-location
+,
+Houston	B-location
+TX	B-location
+77044
+Harvey

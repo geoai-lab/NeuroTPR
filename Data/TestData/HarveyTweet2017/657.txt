@@ -1,0 +1,25 @@
+Now
+100
+road
+closures
+in
+Fayette	B-location
+County	I-location
+due
+to
+Harvey
+.
+River
+crest
+(
+~
+49.9
+’
+)
+to
+occur
+in
+next
+12
+hours
+.

@@ -1,0 +1,28 @@
+The
+Munson
+Minions
+will
+have
+a
+lemonade
+/
+snowcone
+&
+yard
+sale
+Sat
+.
+,
+raise
+$
+$
+for
+HurricaneHarvey
+victims
+.
+2299
+Philippi	B-location
+Chrch	I-location
+Rd	I-location
+.
+Raeford

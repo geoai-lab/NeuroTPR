@@ -1,0 +1,9 @@
+Any
+stores
+open
+near
+Mills	B-location
+Rd	I-location
+?
+?
+Harve

@@ -1,0 +1,13 @@
+Accident
+with
+injury
+in
+Harvey
+on
+Pailet	B-location
+Ave	I-location
+at
+Norman	B-location
+St	I-location
+traffic
+NOLA

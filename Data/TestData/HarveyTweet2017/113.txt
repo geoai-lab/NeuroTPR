@@ -1,0 +1,21 @@
+chainedDogs
+&
+bird
+@
+805
+Pennsylvania	B-location
+Ave	I-location
+,
+SouthHouston	B-location
+need
+SOS
+rescue
+.
+abandoned
+since
+last
+week
+.
+Harveypets
+Houston	B-location
+houstonflood

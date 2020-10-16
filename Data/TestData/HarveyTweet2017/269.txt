@@ -1,0 +1,22 @@
+A
+quick
+look
+at
+our
+West	B-location
+Loop	I-location
+Park	I-location
+.
+Stay
+Safe
+,
+Houston	B-location
+.
+Stay
+home
+unless
+absolutely
+necessary
+.
+Harvey
+houwx

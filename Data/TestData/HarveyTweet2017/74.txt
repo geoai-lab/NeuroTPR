@@ -1,0 +1,16 @@
+NEEDRESCUE
+HOUSTONFLOOD
+Pregnant
+woman
+,
+children
+&
+disabled
+father-in-law
+2121
+Melissa	B-location
+St	I-location
+Houston	B-location
+Texas	B-location
+77039
+…

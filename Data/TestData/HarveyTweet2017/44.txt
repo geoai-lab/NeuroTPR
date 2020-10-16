@@ -1,0 +1,17 @@
+HoustonStrong
+HoustonFlood
+Sunset
+Over
+Buffalo	B-location
+Bayou	I-location
+at
+Peak	B-location
+Road	I-location
+Wednesday
+August
+30th
+7:42
+p
+.
+m
+.

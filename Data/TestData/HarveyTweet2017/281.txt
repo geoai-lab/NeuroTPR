@@ -1,0 +1,26 @@
+A
+mom
+trapped
+in
+HoustonFloods
+plz
+help
+:
+5400
+Bayou	B-location
+Dr	I-location
+.	I-location
+Dickson	B-location
+,
+TX	B-location
+her
+name
+Is
+Rachel
+Patrick
+.
+Please
+send
+HoustonRescue
+Rescue
+housto

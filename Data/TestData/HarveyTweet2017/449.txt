@@ -1,0 +1,23 @@
+Free
+sandbags
+over
+at
+city
+park
+in
+San	B-location
+Marcos	I-location
+,
+over
+by
+the
+armory
+,
+wonderful
+people
+are
+putting
+them
+together
+.
+Harvey201

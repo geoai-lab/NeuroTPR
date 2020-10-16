@@ -1,0 +1,23 @@
+Kimberley
+at
+Beltway	B-location
+8	I-location
+in
+Houston	B-location
+,
+TX	B-location
+.
+Who
+put
+this
+sign
+up
+?
+Wow
+,
+strange
+sense
+of
+humor
+.
+HurricaneHarvey

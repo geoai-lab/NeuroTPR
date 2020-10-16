@@ -1,0 +1,20 @@
+These
+kids
+from
+Heritage	B-location
+Park	I-location
+Baptist	I-location
+Church	I-location
+came
+home
+from
+college
+to
+help
+families
+in
+Dickinson	B-location
+clean
+debris
+.
+…

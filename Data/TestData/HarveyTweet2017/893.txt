@@ -1,0 +1,23 @@
+URGENT
+:
+Animal
+Rescue
+.
+Animals
+at
+Whites	B-location
+Park	I-location
+Pavilion	I-location
+off
+I	B-location
+-	I-location
+10	I-location
+exit	B-location
+61	I-location
+Anahuac	B-location
+tx	B-location
+Texas	B-location
+houstonflooding
+FoxNews
+aspca
+CajunNav

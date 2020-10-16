@@ -1,0 +1,23 @@
+Harvey
+Mayor
+:
+Message
+from
+Port	B-location
+Aransas	I-location
+:
+Trailer	B-location
+park	I-location
+a
+'
+100
+-
+percent
+'
+loss
+,
+search
+and
+rescue
+starts
+today

@@ -1,0 +1,18 @@
+Costco
+on
+Richmond	B-location
+Ave	I-location
+is
+open
+.
+Come
+get
+supplies
+for
+your
+local
+shelter
+.
+harvey
+hurricaneharvey
+houston	B-location

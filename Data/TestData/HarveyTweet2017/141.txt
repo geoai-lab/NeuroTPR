@@ -1,0 +1,22 @@
+Walnut	B-location
+Hill	I-location
+Rex	I-location
+Center	I-location
+in
+Dallas	B-location
+received
+so
+many
+donations
+they
+are
+having
+to
+turn
+away
+supplies
+.
+Other
+drop-offs
+?
+harvey

@@ -1,0 +1,13 @@
+Pier
+behind
+Ocean	B-location
+Dr	I-location
+.	I-location
+home
+next
+to
+Palmetto	B-location
+Park	I-location
+.
+Harvey
+stxwx

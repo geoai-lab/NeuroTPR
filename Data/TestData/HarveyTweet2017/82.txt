@@ -1,0 +1,19 @@
+HurricaneHarvey
+anybody
+in
+Spring	B-location
+TX	B-location
+able
+to
+give
+me
+an
+update
+on
+water
+levels
+anywhere
+near
+Spring	B-location
+Creek	I-location
+Drive	I-location

@@ -1,0 +1,19 @@
+Isla	B-location
+Blanca	I-location
+and
+Andy	B-location
+Bowie	I-location
+Park	I-location
+added
+to
+the
+list
+of
+closed
+Cameron	B-location
+County	I-location
+beach
+access
+areas
+.
+harvey

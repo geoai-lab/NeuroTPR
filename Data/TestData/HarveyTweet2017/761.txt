@@ -1,0 +1,21 @@
+Water
+flowing
+above
+sidewalks
+now
+in
+Lynn	B-location
+Park	I-location
+.
+Concerned
+for
+friends
+in
+more
+severely
+flooded
+parts
+of
+town
+.
+…

@@ -1,0 +1,24 @@
+In
+Sour	B-location
+Lake	I-location
+,
+you
+can
+also
+pick
+up
+sandbags
+at
+610
+Herring	B-location
+Street	I-location
+.
+It's
+best
+to
+bring
+your
+own
+shovel
+.
+Harvey201

@@ -1,0 +1,20 @@
+The
+surge
+wall
+has
+been
+installed
+by
+on
+TX	B-location
+-	I-location
+361	I-location
+between
+Port	B-location
+Aransas	I-location
+and
+Aransas	B-location
+Pass	I-location
+.
+HurricaneHarvey
+…

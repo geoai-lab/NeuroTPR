@@ -1,0 +1,16 @@
+.
+Klein	B-location
+Oak	I-location
+High	I-location
+School	I-location
+is
+now
+a
+shelter
+22603
+Northcrest	B-location
+Dr	I-location
+.
+Harvey
+HoustonFlood
+Shelte

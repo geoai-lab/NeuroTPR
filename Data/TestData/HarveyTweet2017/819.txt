@@ -1,0 +1,20 @@
+The
+historic
+Tarpon	B-location
+Inn	I-location
+where
+FDR
+once
+stayed
+is
+damaged
+,
+but
+the
+owners
+plan
+to
+repair
+.
+PortAransas	B-location
+Harvey

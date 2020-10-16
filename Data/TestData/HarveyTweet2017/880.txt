@@ -1,0 +1,25 @@
+Took
+this
+photo
+of
+an
+RV
+park
+in
+Port	B-location
+Aransas	I-location
+,
+TX	B-location
+last
+night
+.
+Seems
+like
+trailers
+thrown
+all
+around
+from
+sheer
+wind
+…

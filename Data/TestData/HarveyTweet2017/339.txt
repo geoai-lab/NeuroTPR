@@ -1,0 +1,23 @@
+CAT
+4
+HurricaneHarvey
+makes
+landfall
+on
+San	B-location
+Jose	I-location
+Island	I-location
+,
+TX	B-location
+.
+Those
+areas
+are
+ground
+zero
+for
+strongest
+part
+of
+eye
+wall

@@ -1,0 +1,24 @@
+TX	B-location
+:
+We're
+hosting
+a
+Harvey
+Town
+Hall
+Meeting
+with
+in
+Friendswood
+Co
+.
+,
+League	B-location
+City	I-location
+,
+&
+Dickson
+Co
+.
+Info
+:

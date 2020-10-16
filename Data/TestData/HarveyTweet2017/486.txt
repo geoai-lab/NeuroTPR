@@ -1,0 +1,12 @@
+WAIST
+HIGH
+LEVEL
+WATER
+:
+Fry	B-location
+Rd	I-location
+at
+I	B-location
+-	I-location
+10	I-location
+harve

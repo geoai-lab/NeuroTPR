@@ -1,0 +1,19 @@
+Gerardos
+in
+Houston	B-location
+on
+Patton	B-location
+Street	I-location
+.
+Can
+we
+say
+price
+gouging
+during
+HurricaneHarvey
+.
+Shame
+..
+Shame
+!

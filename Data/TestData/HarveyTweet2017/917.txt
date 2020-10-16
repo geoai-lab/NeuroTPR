@@ -1,0 +1,13 @@
+Richmond	B-location
+Ave	I-location
+between
+Highway	B-location
+6	I-location
+and
+Gessner	B-location
+is
+notorious
+for
+flooding
+.
+Harvey201

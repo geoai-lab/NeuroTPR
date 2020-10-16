@@ -1,0 +1,27 @@
+8135
+Hall	B-location
+Lake	I-location
+Dr	I-location
+,
+Houston	B-location
+TX	B-location
+77075
+PLS
+HELP
+IF
+ANYONE
+NEAR
+THIS
+AREA
+MY
+FRIEND
+HG
+NEEDS
+HELP
+!
+!
+!
+16People
+need
+he
+…

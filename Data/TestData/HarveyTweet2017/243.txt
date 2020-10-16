@@ -1,0 +1,20 @@
+They're
+both
+good
+girls
+who
+wish
+they
+could
+be
+going
+to
+the
+Sugar	B-location
+Land	I-location
+instead
+of
+watching
+HarveyStorm
+ba
+…

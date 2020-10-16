@@ -1,0 +1,24 @@
+*
+*
+*
+PLS
+SHARE
+:
+Houston	B-location
+police
+need
+socks
+,
+undershirts
+,
+underwear
+at
+1602
+State	B-location
+St	I-location
+(
+Union	B-location
+Hall	I-location
+)
+Harvey
+HoustonFlood

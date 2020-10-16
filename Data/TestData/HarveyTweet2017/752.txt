@@ -1,0 +1,18 @@
+WH
+:
+and
+are
+at
+St	B-location
+.	I-location
+John's	I-location
+Episcopal	I-location
+Church	I-location
+across
+from
+Lafayette	B-location
+Park	I-location
+for
+nationaldayofprayer
+following
+Harvey2017

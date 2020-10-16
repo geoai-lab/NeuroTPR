@@ -1,0 +1,23 @@
+EdEmmett
+houstonflood
+HurricaneHarvey
+need
+rescue
+at
+21719
+Grand	B-location
+Hollow	I-location
+Lane	I-location
+,
+Katy	B-location
+,
+TX	B-location
+77450
+.
+Please
+help
+2
+adults
+,
+2
+childre

@@ -1,0 +1,20 @@
+Right
+now
+:
+Brookline
+firefighters
+collecting
+for
+Harvey
+victims
+&
+MDA
+at
+Beacon	B-location
+St	I-location
+&
+St	B-location
+Marys	I-location
+St	I-location
+.
+wcvb

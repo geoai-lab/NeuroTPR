@@ -1,0 +1,28 @@
+My
+friend
+,
+his
+wife
+,
+&
+5wk
+old
+baby
+are
+stuck
+at
+12515
+Versailles	B-location
+Drive	I-location
+Houston	B-location
+,
+Tx	B-location
+77015
+The
+water
+is
+rising
+fast
+please
+RT
+Harvey

@@ -1,0 +1,16 @@
+.
+located
+at
+Jones	B-location
+Rd	I-location
+is
+opened
+until
+5PM
+.
+Short
+line
+to
+get
+in
+.

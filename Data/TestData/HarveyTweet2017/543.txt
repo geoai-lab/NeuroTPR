@@ -1,0 +1,16 @@
+I
+think
+should
+be
+in
+Corpus	B-location
+Christi	I-location
+standing
+on
+the
+sea
+wall
+right
+about
+now
+Harvey201

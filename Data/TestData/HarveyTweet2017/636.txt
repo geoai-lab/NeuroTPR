@@ -1,0 +1,25 @@
+NEW
+NOW
+:
+Bastrop	B-location
+gives
+updates
+on
+damage
+from
+Harvey
+,
+FEMA
+expected
+to
+open
+disaster
+relief
+center
+on
+Fawcett	B-location
+St	I-location
+.	I-location
+in
+Smithville	B-location
+today

@@ -1,0 +1,22 @@
+I
+can't
+get
+"
+Lost
+in
+the
+Flood
+"
+from
+"
+Greetings
+from
+Asbury	B-location
+Park	I-location
+"
+(
+1973
+)
+out
+my
+head

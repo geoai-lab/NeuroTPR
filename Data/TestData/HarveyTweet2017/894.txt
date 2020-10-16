@@ -1,0 +1,16 @@
+US
+Galena	B-location
+Park	I-location
+,
+Texas	B-location
+-
+Residents
+cough
+,
+rub
+eyes
+in
+Harvey
+pollution
+spike
+,

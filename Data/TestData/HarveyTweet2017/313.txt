@@ -1,0 +1,10 @@
+As
+seen
+along
+the
+Sabine	B-location
+Street	I-location
+Bridge	I-location
+.
+Harvey
+Houston	B-location

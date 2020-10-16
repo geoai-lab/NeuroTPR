@@ -1,0 +1,23 @@
+413
+Speights	B-location
+Loop	I-location
+Road	I-location
+,
+TX	B-location
+77560
+This
+is
+a
+abandoned
+boarding
+facility
+in
+Texas	B-location
+that
+needs
+help
+!
+!
+!
+pleaseshare
+HurricaneHarve

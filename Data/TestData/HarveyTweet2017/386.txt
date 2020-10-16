@@ -1,0 +1,18 @@
+Dog
+rescue
+...
+Meyerland	B-location
+28
+inches
+near
+Rice	B-location
+Jason	I-location
+St	I-location
+.
+We
+are
+under
+water
+here
+...
+Harvey2017

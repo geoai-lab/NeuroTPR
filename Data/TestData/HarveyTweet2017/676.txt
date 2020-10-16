@@ -1,0 +1,22 @@
+Pictures
+of
+downed
+trees
+and
+damaged
+apartment
+building
+on
+Airline	B-location
+Road	I-location
+in
+Corpus	B-location
+Christi	I-location
+less
+than
+2
+miles
+from
+my
+place
+HurricaneHarve

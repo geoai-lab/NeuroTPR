@@ -1,0 +1,27 @@
+TX
+Supreme
+Court
+issued
+an
+order
+allowing
+attorneys
+licensed
+/
+good
+standing
+in
+another
+U	B-location
+.	I-location
+S	I-location
+.	I-location
+jurisdiction
+to
+practice
+in
+TX	B-location
+for
+6
+mos
+Harve

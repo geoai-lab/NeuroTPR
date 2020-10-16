@@ -1,0 +1,26 @@
+They
+can
+be
+dropped
+of
+at
+7451
+Bay	B-location
+Area	I-location
+Dr	I-location
+.	I-location
+in
+Corpus	B-location
+Christi	I-location
+and
+they
+will
+get
+to
+those
+in
+need
+in
+Rockport	B-location
+.
+…

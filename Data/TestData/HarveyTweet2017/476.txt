@@ -1,0 +1,12 @@
+Greetings
+from
+Fairmont	B-location
+Park	I-location
+East	I-location
+in
+La	B-location
+Porte	I-location
+,
+TX	B-location
+.
+Harvey2017

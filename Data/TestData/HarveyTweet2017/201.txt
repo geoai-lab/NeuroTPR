@@ -1,0 +1,16 @@
+Scanner
+:
+Texas
+City
+police
+say
+25th	B-location
+Avenue	I-location
+is
+flooded
+;
+9th	B-location
+Avenue	I-location
+appears	I-location
+clear
+Harve

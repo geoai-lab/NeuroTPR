@@ -1,0 +1,23 @@
+.
+probe
+near
+the
+bridges
+near
+Rockport	B-location
+recently
+gusted
+(
+3
+-
+s
+)
+near
+100
+mph
+,
+anemometer
+at
+2.25
+m
+Harve

@@ -1,0 +1,21 @@
+The
+mobile
+health
+teams
+are
+seeing
+Harvey
+evacuees
+@
+Toney
+Burger
+Activity
+Ctr
+(
+3200
+Jones	B-location
+Rd	I-location
+.	I-location
+)
+C
+…

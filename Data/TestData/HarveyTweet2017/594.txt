@@ -1,0 +1,14 @@
+Louisiana	B-location
+Street	I-location
+in
+downtown
+Houston	B-location
+is
+completely
+underwater
+!
+houstonflood
+Harvey
+PrayersforTexas
+HoustonFlood2017
+Harvey201

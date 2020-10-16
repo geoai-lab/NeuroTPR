@@ -1,0 +1,30 @@
+Stude	B-location
+Park	I-location
+,
+along
+White	B-location
+Oak	I-location
+Dr	I-location
+.	I-location
+near
+White	B-location
+Oak	I-location
+Bayou	I-location
+.
+Trying
+to
+find
+a
+way
+to
+cross
+I	B-location
+-	I-location
+10	I-location
+and
+having
+no
+luck
+.
+khou
+…

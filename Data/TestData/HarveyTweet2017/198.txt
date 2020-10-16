@@ -1,0 +1,18 @@
+Heavy
+flooding
+on
+Highway	B-location
+90	I-location
+and
+Avenue	B-location
+D	I-location
+,
+and
+at
+Hwy	B-location
+90	I-location
+&
+Pin	B-location
+Oak	I-location
+Road	I-location
+.

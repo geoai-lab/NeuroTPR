@@ -1,0 +1,18 @@
+I
+think
+Jim
+Cantore
+may
+cry
+since
+the
+eye
+wall
+of
+Harvey2017
+isn't
+going
+to
+hit
+Corpus	B-location
+Christi	I-location

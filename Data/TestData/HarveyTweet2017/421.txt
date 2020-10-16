@@ -1,0 +1,10 @@
+Rescue
+Required!
+From
+Fairfield	B-location
+Inn	I-location
+at
+Rockport	B-location
+,
+texas	B-location
+HurricaneHarvey

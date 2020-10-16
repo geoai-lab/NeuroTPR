@@ -1,0 +1,10 @@
+fox26
+harvey
+huge
+Flooding
+in
+Mary	B-location
+Bates	I-location
+and
+Concho	B-location
+St	I-location

@@ -1,0 +1,30 @@
+If
+ur
+n
+the
+DFW
+area
+and
+want
+to
+donate
+or
+volunteer
+to
+help
+HurricaneHarvey
+go
+to
+3000
+W	B-location
+Kingsley	I-location
+Rd	I-location
+Garland	B-location
+Tx	B-location
+.
+Thanks
+so
+much
+.
+Pls
+rt

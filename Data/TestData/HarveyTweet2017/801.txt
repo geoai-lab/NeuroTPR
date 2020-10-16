@@ -1,0 +1,20 @@
+Texas	B-location
+City	I-location
+asking
+18
+homes
+on
+S	B-location
+.	I-location
+Humble	I-location
+Camp	I-location
+Rd	I-location
+.	I-location
+to
+evacuate
+in
+case
+GCWA	B-location
+reservoir	I-location
+breaches
+Harvey

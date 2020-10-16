@@ -1,0 +1,22 @@
+Harvey
+evacuees
+eligible
+for
+free
+Airbnb
+stays
+.
+I
+checked
+it
+out
+and
+there
+is
+great
+one
+on
+South	B-location
+Congress	I-location
+Ave	I-location
+.

@@ -1,0 +1,24 @@
+someone
+placed
+a
+car
+here
+for
+ins
+purpose
+.
+parking
+lot
+of
+I	B-location
+-	I-location
+10	I-location
+highway	I-location
+.
+Terry
+Hershey
+Park
+Parking
+lot
+.
+…

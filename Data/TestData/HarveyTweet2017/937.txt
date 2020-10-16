@@ -1,0 +1,26 @@
+San	B-location
+Marcos	I-location
+has
+opened
+the
+Brush
+Drop
+off
+(
+750
+River	B-location
+Rd	I-location
+)
+for
+tree
+limbs
+and
+vegetative
+debris
+from
+Harvey
+8am
+-
+7pm
+t
+…

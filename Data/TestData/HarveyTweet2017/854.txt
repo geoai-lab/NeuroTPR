@@ -1,0 +1,25 @@
+This
+is
+Wheeler	B-location
+Ave	I-location
+in
+Aransas	B-location
+Pass	I-location
+.
+I
+can't
+stress
+enough
+how
+dangerous
+it
+is
+to
+be
+out
+.
+Stay
+inside
+.
+Harvey
+…

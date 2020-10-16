@@ -1,0 +1,19 @@
+Mom
+sent
+AM
+looks
+at
+Buffalo	B-location
+Bayou	I-location
+Park	I-location
+and
+Allen	B-location
+Pkwy	I-location
+-
+stay
+safe
+momma
+houstonflood
+hurricane
+Harvey
+…

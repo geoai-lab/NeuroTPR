@@ -1,0 +1,16 @@
+is
+the
+San	B-location
+Jacinto	I-location
+bridge	I-location
+,
+north
+of
+Humble	B-location
+,
+TX	B-location
+open
+?
+HurricaneHarvey
+Harvey
+HarveyFloo

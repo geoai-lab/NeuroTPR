@@ -1,0 +1,27 @@
+Our
+Cinco	B-location
+Ranch	I-location
++
+Vintage	B-location
+Park	I-location
+locations
+will
+be
+CLOSED
+today
+,
+8/
+26
+.
+Memorial	B-location
+/
+Rice	B-location
+Village	I-location
+/
+Sugar	B-location
+Land	I-location
+/
+also
+closed
+.
+HurricaneHarve

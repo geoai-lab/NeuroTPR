@@ -1,0 +1,11 @@
+Texas	B-location
+Harvey
+-
+We
+need
+mandatory
+evacuation
+for
+Pecan	B-location
+Grove	I-location
+.

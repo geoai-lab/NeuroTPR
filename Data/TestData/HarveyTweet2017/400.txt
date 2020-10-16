@@ -1,0 +1,15 @@
+Does
+anyone
+know
+what
+the
+destruction
+looks
+like
+at
+Portobello	B-location
+Village	I-location
+on
+Wheeler	B-location
+Street	I-location
+?

@@ -1,0 +1,20 @@
+This
+is
+as
+far
+as
+you
+can
+on
+Old	B-location
+Sour	I-location
+Lake	I-location
+Rd	I-location
+.	I-location
+Just
+past
+Moore	B-location
+Rd	I-location
+.	I-location
+SETXNews
+harvey

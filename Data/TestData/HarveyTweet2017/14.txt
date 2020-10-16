@@ -1,0 +1,17 @@
+Harvey
+is
+going
+to
+basically
+park
+itself
+over
+Corpus	B-location
+Christi	I-location
+all
+weekend
+.
+That's
+insane
+.
+:(

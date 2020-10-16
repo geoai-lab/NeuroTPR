@@ -1,0 +1,21 @@
+UPDATED
+️
+HARVEY
+DONATIONS
+️
+Valhalla
+Fire
+District
+Headquarters
+330
+Columbus	B-location
+Ave	I-location
+.	I-location
+,
+Valhalla	B-location
+,
+NY	B-location
+.
+[
+Thomas
+...

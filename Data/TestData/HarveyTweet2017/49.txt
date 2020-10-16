@@ -1,0 +1,22 @@
+HurricaneHarvey
+HoustonFlood
+HoustonStrong
+KatyTX
+katy
+Valero
+at
+Mason	B-location
+Rd	I-location
+&
+Rock	B-location
+Canyon	I-location
+getting
+fuel
+now
+Expecting
+merch
+truck
+2
+a
+.
+m

@@ -1,0 +1,16 @@
+This
+is
+how
+we
+prep
+for
+hurricaneharvey
+datenight
+with
+my
+boyfriend
+.
+@
+Minute	B-location
+Maid	I-location
+Park	I-location

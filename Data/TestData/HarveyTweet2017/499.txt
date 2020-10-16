@@ -1,0 +1,19 @@
+Horses
+rescued
+from
+Jefferson	B-location
+,
+Orange	B-location
+County	I-location
+waiting
+in
+groups
+for
+their
+owners
+at
+Ford	B-location
+Park	I-location
+Harvey
+409Strong
+…

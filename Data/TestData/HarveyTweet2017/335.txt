@@ -1,0 +1,14 @@
+Bryan	B-location
+residents
+living
+nearby
+Castle	B-location
+Heights	I-location
+Park	I-location
+worried
+about
+their
+homes
+flooding
+.
+HurricaneHarvey

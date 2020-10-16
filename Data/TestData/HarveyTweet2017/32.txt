@@ -1,0 +1,22 @@
+Bastrop	B-location
+residents
+preparing
+for
+HurricaneHarvey
+can
+pick
+up
+sand
+bags
+for
+free
+tomorrow
+at
+the
+public
+works
+yard
+at
+1209
+Linden	B-location
+St	I-location

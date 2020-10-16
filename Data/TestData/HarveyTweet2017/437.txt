@@ -1,0 +1,22 @@
+Flintridge	B-location
+Drive	I-location
+,
+looking
+east
+in
+Woodlands	B-location
+.
+About
+3/4
+mile
+from
+home
+.
+This
+tributary
+feeds
+into
+Spring	B-location
+Creek	I-location
+.
+…

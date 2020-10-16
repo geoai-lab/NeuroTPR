@@ -1,0 +1,25 @@
+Associates
+at
+the
+Kuykendahl	B-location
+Rd	I-location
+&
+Louetta	B-location
+Rd	I-location
+.	I-location
+store
+in
+Spring	B-location
+,
+TX	B-location
+gave
+our
+customers
+a
+reason
+to
+smile
+(:
+tayytink
+)
+…

@@ -1,0 +1,13 @@
+HurricaneHarvey
+LongTermCare
+evacuees
+comforted
+by
+in
+Park	B-location
+Manor	I-location
+at
+Bee	B-location
+Cave	I-location
+:
+…

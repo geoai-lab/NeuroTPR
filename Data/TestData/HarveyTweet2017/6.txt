@@ -1,0 +1,14 @@
+Harvey2017
+HurricaneHarvey
+Hurricane
+Harvey
+Corpus	B-location
+Christi	I-location
+Right
+Now
+75
+mph
+winds
+from
+Swantner	B-location
+Park	I-location

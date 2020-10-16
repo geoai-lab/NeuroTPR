@@ -1,0 +1,27 @@
+Break
+in
+the
+rain
+so
+went
+to
+check
+out
+the
+area
+near
+my
+flat
+.
+Ferry	B-location
+Rd	I-location
+in
+Galveston	B-location
+has
+a
+lot
+of
+standing
+water
+!
+…

@@ -1,0 +1,22 @@
+White	B-location
+Creek	I-location
+Road	I-location
+in
+College	B-location
+Station	I-location
+.
+Another
+tree
+that
+couldn't
+hold
+up
+to
+gusty
+20-35
+mph
+winds
++
+Saturated
+ground
+…

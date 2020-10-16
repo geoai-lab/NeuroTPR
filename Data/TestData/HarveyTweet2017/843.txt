@@ -1,0 +1,22 @@
+There
+are
+two
+kids
+in
+Central	B-location
+Park	I-location
+selling
+cookies
+to
+raise
+money
+for
+hurricane
+Harvey
+victims
+.
+Warmed
+my
+heart
+nyc	B-location
+harve

@@ -1,0 +1,19 @@
+This
+was
+the
+view
+this
+morning
+of
+Hardy	B-location
+St	I-location
+north
+of
+Cavalcade	B-location
+.
+House
+Is
+still
+ok
+.
+HurricaneHarvey

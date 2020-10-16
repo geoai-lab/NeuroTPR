@@ -1,0 +1,20 @@
+Rescue
+needed
+:
+Alicia
+Lee
+and
+her
+2
+children
+house
+flooding
+.
+7007
+Lila	B-location
+Street	I-location
+Pearland	B-location
+,
+Tx	B-location
+Harvey
+hel

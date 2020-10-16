@@ -1,0 +1,16 @@
+NOLAReady
+alert
+:
+Street
+flooding
+reported
+at
+Palm	B-location
+St	I-location
+.	I-location
+and
+S	B-location
+Carrollton	I-location
+Ave	I-location
+.	I-location
+Visit

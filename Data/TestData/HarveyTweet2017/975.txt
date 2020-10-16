@@ -1,0 +1,16 @@
+Storm
+report
+from
+says
+people
+are
+trapped
+inside
+collapsed
+building
+in
+Rockport	B-location
+,
+TX	B-location
+.
+HurricaneHarvey

@@ -1,0 +1,26 @@
+Houston
+Peeps
+:
+Desperate
+need
+@
+Recovery
+Houston	B-location
+.
+Come
+to
+398
+Garden	B-location
+Oaks	I-location
+Blvd	I-location
+2day
+9/3
+&
+they'll
+assign
+u
+a
+home
+in
+need
+HurricaneHarve

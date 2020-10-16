@@ -1,0 +1,15 @@
+Video
+shot
+of
+tornado
+near
+Barker	B-location
+Cypress	I-location
+/
+West	B-location
+Rd	I-location
+an
+hour
+ago
+houwx
+…

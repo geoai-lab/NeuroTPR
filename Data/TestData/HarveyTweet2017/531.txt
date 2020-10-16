@@ -1,0 +1,16 @@
+Just
+got
+home
+from
+work
+on
+Bourbon	B-location
+Street	I-location
+-
+how
+bad
+is
+harvey
+?
+?
+?

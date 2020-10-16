@@ -1,0 +1,16 @@
+Hard
+at
+work
+selling
+lemonade
+for
+harvey
+victims
+with
+friends
+kidlife
+notabli
+:
+Waneka	B-location
+Lake	I-location
+Park	I-location

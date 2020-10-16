@@ -1,0 +1,24 @@
+You
+are
+near
+my
+friend's
+family
+.
+Pls
+send
+a
+boat
+.
+They
+are
+in
+the
+forest
+at
+15020
+Cutten	B-location
+Rd	I-location
+.
+HurricaneHarvey
+harveyrescu

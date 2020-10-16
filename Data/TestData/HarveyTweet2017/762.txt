@@ -1,0 +1,24 @@
+Watchin
+'
+Harvey
+rampage
+through
+some
+dang
+ol
+'
+trailer	B-location
+park	I-location
+in
+Katy	B-location
+.
+The
+news
+is
+predicting
+nearly
+tens
+of
+dollars
+wortha
+damage

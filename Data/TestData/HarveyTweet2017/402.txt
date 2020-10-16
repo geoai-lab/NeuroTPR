@@ -1,0 +1,33 @@
+Don't
+know
+where
+to
+donate
+?
+Send
+to
+The
+Hive
+Society
+,
+501
+(
+c
+)
+(
+3
+)
+-
+address
+:
+12806
+Clermont	B-location
+Harbor	I-location
+Ct	I-location
+.	I-location
+Houston	B-location
+,
+TX	B-location
+,
+77045
+Harve

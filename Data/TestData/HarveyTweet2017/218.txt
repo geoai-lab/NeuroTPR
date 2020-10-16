@@ -1,0 +1,22 @@
+White	B-location
+Oak	I-location
+Bayou	I-location
+at
+the
+Heights
+hike
+-
+bike
+trail
+looking
+East
+twd
+Stude	B-location
+Park	I-location
+,
+before
+,
+during
+&
+after
+…

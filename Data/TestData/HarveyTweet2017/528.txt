@@ -1,0 +1,16 @@
+It
+is
+still
+raining
+but
+my
+Willow	B-location
+Park	I-location
+Village	I-location
+neighborhood
+has
+no
+flooding
+yet
+.
+hurricaneharvey

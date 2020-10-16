@@ -1,0 +1,18 @@
+Group
+of
+elderly
+and
+disabled
+people
+are
+stuck
+in
+waist
+high
+water
+at
+8802
+Banting	B-location
+St	I-location
+Houston	B-location
+-

@@ -1,0 +1,30 @@
+Small
+infant
+in
+7490
+Brompton	B-location
+St	I-location
+,
+Bld
+2
+,
+322
+.
+Near
+Bray	B-location
+Bayou	I-location
+.
+Whole
+apartment
+in
+water
+.
+Need
+rescue
+!
+!
+please
+help
+houstonflood
+!
+!

@@ -1,0 +1,22 @@
+80
+people
+stranded
+in
+a
+church
+!
+!
+5547
+Cavalcade	B-loation
+St	I-location
+,
+Houston	B-location
+,
+TX	B-location
+77026
+harveyrescue
+hurricaneharvey
+sendhelp
+harveysos
+houston	B-location
+texa	B-location

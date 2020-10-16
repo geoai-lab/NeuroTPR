@@ -1,0 +1,15 @@
+Stay
+safe
+Houston	B-location
+.
+Memorial	B-location
+Park	I-location
+,
+I'll
+be
+seeing
+you
+soon
+!
+hurricaneharvey
+…

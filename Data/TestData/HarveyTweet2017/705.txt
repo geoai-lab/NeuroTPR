@@ -1,0 +1,14 @@
+Patton	B-location
+Street	I-location
+of
+Rockport	B-location
+,
+TX	B-location
+undergone
+Search
+&
+Rescue
+efforts
+yet
+?
+HurricaneHarve

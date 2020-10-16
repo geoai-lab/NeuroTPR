@@ -1,0 +1,15 @@
+Roof
+damage
+at
+this
+apartment
+complex
+on
+Airline	B-location
+Rd	I-location
+.
+in
+Corpus	B-location
+Christi	I-location
+.
+HurricaneHarvey

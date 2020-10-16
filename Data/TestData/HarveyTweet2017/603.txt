@@ -1,0 +1,30 @@
+My
+granny
+&
+papa
+are
+in
+their
+home
+&
+it's
+flooding
+!
+82
+&
+90
+yrs
+old
+on
+oxygen
+.
+3043
+Keystone	B-location
+Dr	I-location
+.
+Port	B-location
+Arthur	I-location
+,
+TX	B-location
+77640
+HurricaneHarve

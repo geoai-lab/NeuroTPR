@@ -1,0 +1,19 @@
+Jay
+Dean
+for
+Texas	B-location
+is
+coordinating
+a
+Harvey
+relief
+supply
+drive
+at
+St	B-location
+Matthew's	I-location
+Catholic	I-location
+Church	I-location
+in
+Longview	B-location
+.

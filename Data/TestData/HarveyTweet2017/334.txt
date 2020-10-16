@@ -1,0 +1,20 @@
+Brunswick	B-location
+&
+Stewart	B-location
+Rd	I-location
+in
+Lakeland	B-location
+is
+closed
+.
+The
+Loosehatchie	B-location
+River	I-location
+is
+at
+Flood
+Stage
+.
+Harvey
+:
+…

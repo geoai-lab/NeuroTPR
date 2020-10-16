@@ -1,0 +1,19 @@
+Pecan	B-location
+Grove	I-location
+,
+in
+Richmond	B-location
+,
+Fort	B-location
+Bend	I-location
+County	I-location
+.
+Neighborhood
+was
+about
+3
+feet
+underwater
+yesterday
+.
+Harvey

@@ -1,0 +1,12 @@
+PORT	B-location
+ARTHUR	I-location
+:
+SH73	B-location
+westbound
+near
+LaBelle	B-location
+Rd	I-location
+is
+CLOSED
+TurnAroundDontDrown
+Harvey

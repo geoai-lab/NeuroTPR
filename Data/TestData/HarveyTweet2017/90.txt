@@ -1,0 +1,27 @@
+9013
+McGallion	B-location
+Rd	I-location
+Houston	B-location
+,
+TX	I-location
+77022
+Starting
+Now
+!
+!
+!
+All
+baby
+products
+,
+food
+,
+clothing
+,
+water
+,
+and
+cleaning
+items
+.
+…

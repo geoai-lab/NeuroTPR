@@ -1,0 +1,12 @@
+Buffalo	B-location
+Bayou	I-location
+facing
+Downtown
+Houston	B-location
+from
+the
+Jackson	B-location
+Hill	I-location
+Bridge	I-location
+HurricaneHarvey
+Houston	B-location

@@ -1,0 +1,18 @@
+Please
+help
+this
+young
+lady
+!
+HoustonStrong
+HoustonPolice
+HurricaneHarvey
+2815
+34th	B-location
+street	I-location
+77640
+Port	B-location
+Arthur	I-location
+Tx	B-location
+H
+…

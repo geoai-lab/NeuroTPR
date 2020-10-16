@@ -1,0 +1,22 @@
+In
+WestHouston	B-location
+,
+the
+trail
+going
+to
+Terry	B-location
+Hershey	I-location
+park	I-location
+is
+still
+flooded
+.
+But
+fortunately
+the
+bayou
+keeps
+going
+do
+…

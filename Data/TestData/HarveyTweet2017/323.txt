@@ -1,0 +1,22 @@
+Been
+informed
+of
+someone
+on
+their
+roof
+at
+7483
+Brompton	B-location
+Rd	I-location
+,
+Houston	B-location
+,
+Texas	B-location
+.
+Needs
+assistance
+before
+dam
+opens
+houstonfloo

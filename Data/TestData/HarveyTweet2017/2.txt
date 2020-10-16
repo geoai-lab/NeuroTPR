@@ -1,0 +1,22 @@
+HarveyRescue
+SOS
+Harvey
+2320
+E	B-location
+17th	I-location
+street	I-location
+,
+in
+Port	B-location
+Arthur	I-location	
+:
+4
+adults
+&
+2
+kids
+need
+rescue
+!
+HoustonFlood
+HarveyFlood

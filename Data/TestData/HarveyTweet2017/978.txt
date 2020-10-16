@@ -1,0 +1,20 @@
+Strangers
+in
+a
+shelter
+in
+Deer	B-location
+Park	I-location
+,
+TX	B-location
+come
+together
+to
+celebrate
+little
+Anthony's
+birthday
+,
+interrupted
+by
+…

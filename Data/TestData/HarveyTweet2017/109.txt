@@ -1,0 +1,25 @@
+harvey
+Pls
+rescue
+12
+day
+baby
+family
+at
+9
+Woodstone	B-location
+St	I-location
+,
+Houston	B-location
+77024
+,
+flooding
+will
+reach
+roof
+soon
+,
+help
+my
+fr
+…

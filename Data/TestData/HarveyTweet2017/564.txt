@@ -1,0 +1,29 @@
+If
+you
+need
+a
+place
+to
+escape
+HurricaneHarvey
+,
+The
+Willie	B-location
+De	I-location
+Leon	I-location
+Civic	I-location
+Center	I-location
+:
+300
+E	B-location
+.	I-location
+Main	I-location
+St	I-location
+in
+Uvalde	B-location
+is
+open
+as
+a
+shelter
+HarveyRelie

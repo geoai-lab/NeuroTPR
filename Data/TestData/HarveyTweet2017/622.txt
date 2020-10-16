@@ -1,0 +1,19 @@
+Man
+in
+need
+of
+removal
+:
+1600
+Pennsylvania	B-location
+Avenue	I-location
+NW	I-location
+Washington	B-location
+,
+DC	B-location
+20500
+rescue
+innneedofrescue
+removal
+harvey
+harvey201

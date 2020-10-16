@@ -1,0 +1,26 @@
+We
+are
+ok
+here
+so
+far
+on
+Granite	B-location
+St	I-location
+,
+between
+290	B-location
+and
+Hempstead	B-location
+on
+Bingle	B-location
+Rd	I-location
+.
+Praying
+for
+everyone
+in
+Houston	B-location
+and
+ho
+…

@@ -1,0 +1,9 @@
+Arlington
+residents
+send
+Harvey
+aid
+to
+Texas	B-location
+!
+FPFD

@@ -1,0 +1,21 @@
+A
+spokesman
+for
+the
+city
+visitors
+bureau
+says
+NRG	B-location
+Park	I-location
+is
+under
+consideration
+for
+new
+Harvey
+shelter
+.
+That
+include
+…

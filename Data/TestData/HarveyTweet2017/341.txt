@@ -1,0 +1,15 @@
+Buffalo	B-location
+Bayou	I-location
+holding
+steady
+at
+10,000
+cfs
+at
+the
+gage
+near
+Terry	B-location
+Hershey	I-location
+Park	I-location
+:

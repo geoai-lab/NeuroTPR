@@ -1,0 +1,12 @@
+this
+is
+what
+Memorial	B-location
+Park	I-location
+is
+looking
+like
+right
+now
+.
+Harvey

@@ -1,0 +1,20 @@
+Yes
+i
+understand
+Houston	B-location
+is
+flooded
+but
+seriously
+your
+rich
+make
+a
+3hour
+drive
+to
+corpus	B-location
+christi	I-location
+or
+Sinton	B-location
+HurricaneHarve

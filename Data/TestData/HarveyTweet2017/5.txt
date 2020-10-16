@@ -1,0 +1,21 @@
+Harvey2017
+SOS
+Dogs
+locked
+in
+flooded
+kennels
+just
+north
+of
+Beltway	B-location
+8	I-location
+and
+Telephone	B-location
+Rd	I-location
+in
+Southeast	B-location
+Houston	I-location
+please
+help
+!!!

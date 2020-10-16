@@ -1,0 +1,18 @@
+A
+lot
+of
+creatures
+displaced
+in
+the
+aftermath
+of
+hurricaneharvey
+-
+including
+the
+Waugh	B-location
+St	I-location
+bridge	I-location
+bat
+colony

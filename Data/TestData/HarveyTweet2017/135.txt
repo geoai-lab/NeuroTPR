@@ -1,0 +1,13 @@
+$
+20
+limit
+️
+rationing
+at
+Shell
+station
+on
+Sam	B-location
+Wilson	I-location
+Rd	I-location
+Harvey

@@ -1,0 +1,14 @@
+Taking
+Harvey2017
+and
+Irma2017
+donations
+at
+6150
+South	B-location
+Park	I-location
+location
+in
+Hamburg	B-location
+.
+Buffalo	B-location

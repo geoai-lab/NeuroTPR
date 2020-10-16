@@ -1,0 +1,24 @@
+Can
+y'all
+get
+to
+Wedgewood	B-location
+elementary	I-location
+in
+Friendswood	B-location
+.
+You
+can't
+set
+up
+a
+shelter
+with
+no
+food
+.
+4000
+Friendswood	B-location
+Link	I-location
+Rd	I-location
+Harve

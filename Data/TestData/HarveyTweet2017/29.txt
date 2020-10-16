@@ -1,0 +1,24 @@
+CNN
+MSNBC
+FoxNews
+A
+useless
+50
+Billion
+$
+Mexican
+Wall
+or
+Help
+for
+our
+fellow
+Americans
+in
+HOUSTON	B-location
+TX	B-location
+HurricaneHarvey
+I
+vote
+HOUSTON	B-location
+!

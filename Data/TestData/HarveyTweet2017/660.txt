@@ -1,0 +1,18 @@
+On
+Galveston	B-location
+Seawall	I-location
+near
+61st	B-location
+Street	I-location
+at
+about
+5pm
+,
+Fri
+25th
+August
+Galveston	B-location
+Harvey
+Harvey2017
+windy
+…

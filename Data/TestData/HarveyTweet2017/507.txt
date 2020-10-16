@@ -1,0 +1,20 @@
+I
+could
+use
+a
+new
+Playstation
+4
+pro
+HurricaneHarvey
+Harvey
+Harvey2017
+612
+Wharf	B-location
+Ave	I-location
+,
+Los	B-location
+Angeles	I-location
+CA	B-location
+,
+9021

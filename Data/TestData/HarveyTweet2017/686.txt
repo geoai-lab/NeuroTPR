@@ -1,0 +1,21 @@
+Please
+help
+us
+!
+19002
+Mission	B-location
+Park	I-location
+Drive	I-location
+,
+Richmond	B-location
+,
+TX	B-location
+77407
+.
+HarveySOS
+houstonflood
+1st
+floor
+apartments
+are
+floode

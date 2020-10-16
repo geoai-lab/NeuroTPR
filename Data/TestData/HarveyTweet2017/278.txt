@@ -1,0 +1,20 @@
+A
+cattle
+drive
+takes
+to
+the
+streets
+of
+Dayton	B-location
+,
+Tx	B-location
+.
+due
+to
+Harvey
+txwx
+Video
+via
+Rebekah
+Brand

@@ -1,0 +1,21 @@
+Harvey
+Latest
+-
+More
+shelters
+opening
+here
+in
+Dallas	B-location
+.
+This
+one
+at
+Walnut	B-location
+Hill	I-location
+Rec	I-location
+center	I-location
+is
+at
+capacity
+now

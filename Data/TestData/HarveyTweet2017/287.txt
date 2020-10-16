@@ -1,0 +1,21 @@
+Abandoned
+Husky
+chained
+up
+to
+trailer
+needs
+rescue
+.
+2105
+Matilda	B-location
+St	I-location
+.	I-location
+Houston	B-location
+77039
+.
+Water
+rising
+.
+Harvey
+Dog

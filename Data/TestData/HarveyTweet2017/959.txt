@@ -1,0 +1,23 @@
+So
+far
+we
+had
+Harvey
+decimate
+southern
+TX	B-location
+.
+HurricaneIrma
+heading
+toward
+Florida	B-location
+&
+two
+other
+systems
+building
+over
+the
+Gulf	B-location
+&
+Atlanti	B-location

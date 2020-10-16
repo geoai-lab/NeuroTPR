@@ -1,0 +1,23 @@
+If
+you
+lost
+a
+pet
+during
+Harvey
+,
+visit
+Beaumont	B-location
+Animal	I-location
+Care	I-location
+at
+1884
+Pine	B-location
+St	I-location
+.
+or
+call
+(409) 838-3304
+.
+SETXnews
+…

@@ -1,0 +1,28 @@
+Those
+affected
+by
+Harvey
+can
+go
+to
+1215
+N	B-location
+.	I-location
+Adams	I-location
+St	I-location
+.	I-location
+10am
+-
+5pm
+Sunday
+to
+receive
+toiletries
+,
+cleaning
+supplies
+,
+non-perishable
+food
+,
+mor

@@ -1,0 +1,21 @@
+Harbor	B-location
+Bridge	I-location
+"
+very
+well
+"
+may
+be
+shut
+down
+when
+Harvey
+gets
+to
+Corpus	B-location
+Christi	I-location
+.
+Stay
+with
+for
+update

@@ -1,0 +1,25 @@
+Democratic
+Women
+Comal
+Co
+.
+hosting
+a
+Harvey
+food
+drive
+all
+week
+.
+Drop
+off
+non-perishables
+1592
+W	B-location
+.	I-location
+San	I-location
+Antonio	I-location
+St	I-location
+.	I-location
+,
+…

@@ -1,0 +1,14 @@
+"
+:
+Trailer	B-location
+Park	I-location
+Homes	I-location
+Leveled
+By
+Hurricane
+Harvey's
+Winds
+In
+Victoria	B-location
+,
+TX	B-location

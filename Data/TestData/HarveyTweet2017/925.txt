@@ -1,0 +1,32 @@
+Rockport	B-location
+Harvey
+news
+tip
+.
+Go
+to
+Goose	B-location
+Island	I-location
+State	I-location
+Park	I-location
+and
+see
+if
+"
+The
+Big
+Tree
+"
+is
+down
+.
+It
+rode
+out
+every
+other
+hurricane
+for
+800
++
+yrs

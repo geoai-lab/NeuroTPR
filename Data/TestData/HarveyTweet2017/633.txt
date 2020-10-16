@@ -1,0 +1,29 @@
+My
+friend
+Bill
+lives
+in
+Houston	B-location
+.
+He
+says
+this
+pic
+is
+White	B-location
+Oak	I-location
+Bayou	I-location
+flooding
+at
+IH	B-location
+10	I-location
+&
+Yale	B-location
+St	I-location
+.
+He
+lives
+1/4
+mi
+on
+…

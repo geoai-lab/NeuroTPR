@@ -1,0 +1,15 @@
+Glad
+to
+see
+our
+family's
+house
+on
+Water	B-location
+Street	I-location
+is
+still
+standing
+!
+Harvey
+Rockport	B-location

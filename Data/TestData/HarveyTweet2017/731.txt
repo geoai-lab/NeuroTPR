@@ -1,0 +1,12 @@
+We
+are
+flooded
+on
+25th	B-location
+St	I-location
+.
+HurricaneHarvey
+galveston	B-location
+@
+Galveston	B-location
+Island	I-location

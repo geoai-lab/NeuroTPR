@@ -1,0 +1,22 @@
+barker	B-location
+cypress	I-location
+and
+Morton	B-location
+,
+north
+side
+of
+Cullen	B-location
+Park	I-location
+area
+,
+people
+saying
+there
+are
+people
+still
+there
+need
+t
+…

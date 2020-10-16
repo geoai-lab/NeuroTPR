@@ -1,0 +1,19 @@
+Second
+shelter
+opened
+for
+evacuees
+at
+Tommie	B-location
+M	I-location
+.	I-location
+Allen	I-location
+Rec	I-location
+Center	I-location
+located
+at
+7071
+Bonnie	B-location
+View	I-location
+Rd	I-location
+harve

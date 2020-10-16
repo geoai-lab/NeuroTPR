@@ -1,0 +1,26 @@
+Have
+arrived
+at
+St	B-location
+.	I-location
+John's	I-location
+Episcopal	I-location
+Church	I-location
+in
+D	B-location
+.	I-location
+C	I-location
+.	I-location
+for
+10:30
+a
+Nat'l
+Day
+of
+Prayer
+service
+for
+those
+impacted
+by
+Harvey

@@ -1,0 +1,21 @@
+WELCOME
+HOME
+:
+Handshakes
+&
+hugs
+for
+Bay	B-location
+Area	I-location
+rescuers.
+Task
+Force
+3
+arrived
+today
+in
+Menlo	B-location
+Park	I-location
+back
+from
+…

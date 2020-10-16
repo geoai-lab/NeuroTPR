@@ -1,0 +1,27 @@
+People
+I
+saw
+on
+a
+bike
+ride
+in
+my
+neighborhood
+:
+2
+joggers
+&
+a
+guy
+pulling
+a
+kayak
+towards
+Buffalo	B-location
+Bayou	I-location
+annexed
+Memorial	B-location
+Dr	I-location
+.
+houstonfloo

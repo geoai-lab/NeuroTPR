@@ -1,0 +1,27 @@
+Family
+of
+five
+(
+including
+90
+y
+/
+o
+woman
+)
+in
+need
+of
+rescue
+.
+1425
+15th	B-location
+St	I-location
+.	I-location
+PortArthur	B-location
+Texas	B-location
+Gail
+Pitre
+HurricaneHarvey
+HarveySOS
+CajunNav

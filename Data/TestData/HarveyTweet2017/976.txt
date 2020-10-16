@@ -1,0 +1,13 @@
+Strand	B-location
+Street	I-location
+,
+Gslveston	B-location
+TX	B-location
+@
+2:30
+on
+8/
+29/29017
+Harvey2017
+GalvestonTX	B-location
+Strandstreet	B-location

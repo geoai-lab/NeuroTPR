@@ -1,0 +1,22 @@
+Steady
+rain
+in
+Cedar	B-location
+Park	I-location
+from
+HurricaneHarvey
+.
+If
+you
+see
+high
+water
+and
+/
+or
+barricades
+don't
+drive
+through
+.
+…

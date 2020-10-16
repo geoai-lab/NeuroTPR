@@ -1,0 +1,18 @@
+Shelter
+in
+Louisiana	B-location
+:
+Morning	B-location
+Star	I-location
+Baptist	I-location
+Church	I-location
+–
+5340
+Jewella	B-location
+Ave	I-location
+.	I-location
+,
+Shreveport	B-location
+,
+LA	B-location
+Harve

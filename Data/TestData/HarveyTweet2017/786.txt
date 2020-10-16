@@ -1,0 +1,12 @@
+statesman
+:
+BEFORE
+/
+AFTER
+PHOTOS
+:
+Taylor	B-location
+Street	I-location
+in
+La	B-location
+Grange	I-location

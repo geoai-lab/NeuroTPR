@@ -1,0 +1,18 @@
+HurricaneHarvey
+how
+can
+a
+resident
+check
+on
+Corpus	B-location
+Christi	I-location
+road
+conditions
+to
+know
+when
+to
+return
+from
+evacuation

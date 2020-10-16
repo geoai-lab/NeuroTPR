@@ -1,0 +1,22 @@
+HoustonFloods
+2
+young
+women
+needing
+rescue
+on
+Elmridge	B-location
+St	I-location
+near
+Linkwood	B-location
+Park	I-location
+.
+Lost
+contact
+,
+house
+likely
+flooded
+.
+Pls
+help

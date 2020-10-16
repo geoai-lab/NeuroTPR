@@ -1,0 +1,27 @@
+Urgent
+rescue
+of
+chemo
+patient
+Barbara
+McNeal
+,
+on
+counter
+for
+18
+hours
+.
+Low
+cell
+battery
+.
+16547
+Park	B-location
+Scot	I-location
+Dr	I-location
+.	I-location
+Houston	B-location
+77084
+Harvey
+rescu

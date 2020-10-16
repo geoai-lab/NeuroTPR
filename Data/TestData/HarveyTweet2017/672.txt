@@ -1,0 +1,22 @@
+On
+Houston's	B-location
+east
+side
+Normandy	B-location
+St	I-location
+.	I-location
+is
+a
+body
+of
+water
+for
+as
+far
+as
+eye
+can
+see
+.
+Fox26
+Harvey

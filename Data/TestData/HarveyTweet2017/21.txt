@@ -1,0 +1,16 @@
+Harvey
+showing
+129/130
+MPH
+winds
+in
+the
+eye
+wall
+on
+city
+radar
+of
+Corpus	B-location
+Christi	I-location
+.

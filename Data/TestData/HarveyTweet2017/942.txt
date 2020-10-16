@@ -1,0 +1,24 @@
+Select
+a
+specific
+county
+in
+East	B-location
+TX	I-location
+,
+or
+allow
+United
+Way
+to
+distribute
+the
+funds
+where
+they
+are
+needed
+the
+most
+.
+…

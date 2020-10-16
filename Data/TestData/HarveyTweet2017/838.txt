@@ -1,0 +1,10 @@
+Is
+Minute	B-location
+Maid	I-location
+Park	I-location
+or
+NRG	B-location
+stadium	I-location
+taking
+Harvey2017
+evacuees

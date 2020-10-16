@@ -1,0 +1,18 @@
+Intense
+eye
+wall
+of
+category
+4
+HurricaneHarvey
+from
+Rockport	B-location
+,
+TX	B-location
+with
+140
++
+mph
+wind
+gusts
+.

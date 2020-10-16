@@ -1,0 +1,18 @@
+What
+used
+to
+be
+the
+walkway
+from
+parking
+lot
+to
+the
+beach
+at
+Mustang	B-location
+Island	I-location
+State	I-location
+Park	I-location
+Harvey2017

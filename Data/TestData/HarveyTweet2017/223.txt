@@ -1,0 +1,15 @@
+Pet
+parents
+will
+remember
+Holiday	B-location
+Inn	I-lcoation
+Houston	I-location
+SW	I-location
+and
+choose
+other
+lodging
+.
+HarveyFlood
+Harvey201

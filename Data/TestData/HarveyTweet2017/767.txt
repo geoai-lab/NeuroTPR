@@ -1,0 +1,16 @@
+What's
+left
+of
+my
+front
+and
+back
+yard
+in
+the
+League	B-location
+City	I-location
+/
+Dickinson	B-location
+area
+.

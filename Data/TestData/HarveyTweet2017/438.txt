@@ -1,0 +1,20 @@
+Flooding
+on
+William	B-location
+St	I-location
+&
+north
+downtown
+houston	B-location
+.
+Water
+18
+"
+deep
+&
+rising
+.
+Sheriff
+on
+scene
+…

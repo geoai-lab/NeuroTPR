@@ -1,0 +1,14 @@
+St	B-location
+.	I-location
+Johns	I-location
+here
+-
+yeah
+,
+watching
+closely
+too
+,
+especially
+after
+HurricaneHarvey

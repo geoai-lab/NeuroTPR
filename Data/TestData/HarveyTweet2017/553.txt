@@ -1,0 +1,25 @@
+It's
+closed
+now
+but
+it
+was
+open
+into
+the
+afternoon
+,
+despite
+being
+boarded
+up
+.
+I	B-location
+-	I-location
+37	I-location
+&
+Water	B-location
+St	I-location
+.
+Harvey
+stxwx

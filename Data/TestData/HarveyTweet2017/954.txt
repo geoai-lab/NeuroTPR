@@ -1,0 +1,17 @@
+Shelter
+in
+Yorktown	B-location
+TX	B-location
+:
+St	B-location
+.	I-location
+Paul	I-location
+Lutheran	I-location
+Church	I-location
+-
+234
+N	B-location
+Gohmert	I-location
+St	I-location
+Harvey
+HurricaneHarver

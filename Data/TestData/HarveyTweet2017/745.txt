@@ -1,0 +1,24 @@
+Video
+I
+took
+18
+hrs
+after
+Harvey
+landfall
+in
+Fulton	B-location
+Texas	B-location
+..
+Just
+west
+of
+the
+Capono	B-location
+Bay	I-location
+Bridge	I-location
+just
+west
+of
+Rockpor	B-location
+…

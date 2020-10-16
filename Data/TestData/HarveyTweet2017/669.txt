@@ -1,0 +1,13 @@
+PICTURE
+2
+check
+out
+Buffalo	B-location
+Bayou	I-location
+Park	I-location
+Houston	B-location
+Texas	B-location
+.
+hurricaneharvey
+bayoupark
+rightsidebroadcasting

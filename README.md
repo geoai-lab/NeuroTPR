@@ -5,13 +5,12 @@
 
 NeuroTPR is a toponym recognition model designed for extracting locations from social media messages. It is based on a general Bidirectional Long Short-Term Memory network (BiLSTM) with a number of additional features, such as double layers of character embeddings, GloVe word embeddings, and contextualized word embeddings ELMo.
 
-The goal of this model is to improve the accuracy of toponym recognition from social media messages that have various
-language irregularities, such as informal sentence structures, inconsistent upper and lower cases (e.g., “there is a HUGE fire near camino and springbrook rd”), name abbreviations (e.g., “bsu” for “Boise State University”), and misspellings. Particularly, NeuroTPR is designed to extract fine-grained locations such as streets, natural features, facilities, point of interest (POIs), and administrative units. We tested NeuroTPR in the application context of disaster response based on a dataset of tweets from Hurricane Harvey in 2017.
+The goal of this model is to improve the accuracy of toponym recognition from social media messages that have various language irregularities, such as informal sentence structures, inconsistent upper and lower cases (e.g., “there is a HUGE fire near camino and springbrook rd”), name abbreviations (e.g., “bsu” for “Boise State University”), and misspellings. We tested NeuroTPR in the application context of disaster response based on a dataset of tweets from Hurricane Harvey in 2017.
 
-More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): NeuroTPR: A Neuro-net ToPonym Recognition model for extracting locations from social media messages. Transactions in GIS, 24(3), 719-735.](https://geoai.geog.buffalo.edu/publications/)
+More details can be found in our paper: [Wang, J., Hu, Y., & Joseph, K. (2020): NeuroTPR: A Neuro-net ToPonym Recognition model for extracting locations from social media messages. Transactions in GIS, 24(3), 719-735.](http://www.acsu.buffalo.edu/~yhu42/papers/2020_TGIS_NeuroTPR.pdf)
 
 <p align="center">
-<img align="center" src="model_structure.png" width="600" />
+<img align="center" src="Fig/model_structure.png" width="600" />
 <br />
 Figure 1. The overall architecture of NeuroTPR
 </p>
@@ -19,72 +18,68 @@ Figure 1. The overall architecture of NeuroTPR
 
 ### Repository organization
 
-* "HarveyTweet" folder: This folder contains the Harvey2017 dataset with 1,000 human-annotated tweets.
-* "Model" folder: This folder contains the Python source codes for using the trained NeuroTPR model or retraining NeuroTPR using your own data.
-* "WikiDataHelper" folder: This folder contains the Python source codes to build up an annotated dataset from Wikipedia for training NeuroTPR.
-* "training_data" folder: This folder contains three training data sets (Wikipedia3000, WNUT2017, and 50 optional tweets from Hurricane Harvey) used for training NeuroTPR. Wikipedia3000 was automatically constructed from 3000 Wikipedia articles using our proposed workflow (more details can be found in the folder "WikiDataHelper"); WNUT2017 contains 599 tweets selected from [the original dataset](https://github.com/leondz/emerging_entities_17); and 50 optional tweets contain 50 crisis-related tweets from the [Hurricane Harvey Twitter Dataset](https://digital.library.unt.edu/ark:/67531/metadc993940/) with door number addresses or street names.
+* "Data" folder: This folder has two subfolders, "TrainingData" and "TestData". The "TrainingData" folder contains two training datasets, namely "Wikipedia3000" and "WNUT2017". "Wikipedia3000" was automatically constructed from 3000 Wikipedia articles using our proposed workflow (source code is in the folder "WikiDataHelper" under the "SourceCode" folder). "WNUT2017" contains 599 tweets selected from [the original dataset](https://github.com/leondz/emerging_entities_17). The "TestData" folder contains 1,000 human-annotated tweets from Hurricane Harvey 2017. These tweets are from the [Hurricane Harvey Twitter Dataset](https://digital.library.unt.edu/ark:/67531/metadc993940/). Other two test datasets used in the paper can be obtained from existing repositories: GeoCorpora can be downloaded from the [GeoCorpora Project](https://github.com/geovista/GeoCorpora), and Ju2016 is available at the [EUPEG project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016).
+
+* "SourceCode" folder: This folder has two subfolders, "neurotpr" and "WikiDataHelper". The "neurotpr" folder contains the source code for training and using NeuroTPR. The "neurotpr" folder is a Python package that can be directly included and imported in your Python project. The "WikiDataHelper" folder contains the source code for building up an annotated dataset from Wikipedia.
+
+* "PretrainedModel" folder: This folder contains the files of the pertained NeuroTPR model. The "PretrainedModel.zip" is simply a zip file of this folder to make the download of the pertained model easier.
 
 
 
-### Test datasets and model performance
-NeuroTPR was tested on three different datasets, which are:
-* HarveyTweet: 1,000 human-annotated tweets from 2017 Hurricane Harvey. This dataset is available in the "HarveyTweet" folder.
-* GeoCorproa:  1,689 human-annotated tweets from the [GeoCorpora Project](https://github.com/geovista/GeoCorpora).
-* Ju2016: 5,000 short sentences collected from Web pages and automatically annotated. This dataset is  available at the [EUPEG project](https://github.com/geoai-lab/EUPEG/tree/master/corpora/Ju2016).
+### Use the pretrained NeuroTPR model 
 
-We tested NeuroTPR using the benchmarking platform [EUPEG](https://github.com/geoai-lab/EUPEG). The performance of NeuroTPR on the three datasets is presented in the table below:
+Using the pretrained NeuroTPR model for toponym recognition will need the following steps:
 
-|   Corpora   |  Precision |   Recall  |   F_score  |
-|-------------|:----------:|----------:|-----------:|
-| HarveyTweet |    0.787   |   0.678   |	0.728	|
-|  GeoCorpora |    0.800   |   0.761   |	0.780	|
-|    Ju2016   | 	 -	   |   0.821   |	  - 	|
-
-
-### Use the trained NeuroTPR for toponym recognition
-
-1. Input is a single raw tweet: use function geoparse(text) from Model/geoparse.py file
-
-Input Example: "The City of Dallas has now opened Shelter #3 at Samuel Grand Recreation Center, 6200 E. Grand Ave. #HurricaneHarvey"
-
-Model output (JSON): [{"location_name": "City of Dallas", "start_idx": 5, "end_idx": 18}, {"location_name": "Samuel Grand Recreation Center", "start_idx": 50, "end_idx": 79}]
-
-
-2. Input is a tweet dataset saved in the CoNLL2003 format
-
-```bash
-    python3 Model/geoparse_dataset.py
+1. Setup the virtual environment: Please create a new virtual environment using Anaconda and install the dependent packages using the following commands (please run them in the same order below):
+ ```bash
+	condo create -n NeuroTPR python=3.6
+	condo activate NeuroTPR
+	conda install keras -c conda-forge
+	pip install git+https://www.github.com/keras-team/keras-contrib.git
+	pip install neurotpr
  ```
 
-Output: toponym-name1,,statr-index,,end-index||toponym-name2,,statr-index,,end-index||...
+2. Download the [pretrained model](PretrainedModel.zip), and unzip it to a folder that you would prefer.
+
+3. Use NeuroTPR to recognize toponyms from text. A snippet of example code is below:
+ ```bash
+from neurotpr import geoparse
+    
+geoparse.load_model("the folder path of the pretrained model; note that the path should end with /")
+result = geoparse.topo_recog("Buffalo is a city in New York State.")
+print(result)
+ ```
+The input of the "topo_recog" function is a string, and the output is a list of JSON objects containing the recognized toponyms and their start and end indexes in the input string.
+
+
+### Combine NeuroTPR with a geolocation service
+NeuroTPR is a toponym recognition model, which means that it will not assign geographic coordinates to the recognized toponyms. If you would like to add coordinates to the recognized toponyms, you could use the [geocoding function from GeoPandas](https://geopandas.org/geocoding.html), [Google Place API](https://developers.google.com/maps/documentation/javascript/places), or other services. Note that these services are not doing place name disambiguation for you, since they don't know the contexts under which these toponyms are mentioned. 
+
 
 
 ### Retrain NeuroTPR using your own data
 
-If you wish to re-train NeuroTPR using your own data, you first need to add POS features to your own annoated dataset in CoNLL2003 format. You can use the following python codes to add POS features via NLTK tool.
+Retraining NeuroTPR using your own data will be more complicated. You first need to add POS features to your own annotated dataset in CoNLL2003 format (you can check our shared training data for an example of the format). You can then use the following python codes to add POS features via the NLTK library.
 
 ```bash
-    python3 Model/add_lin_features.py
+    python3 SourceCode/neurotpr/add_lin_features.py
 ```
 
 To train NeuroTPR, you need to:
-* Set up the file path to load word embeddings and training data;
+* Set up the file path to load your word embeddings and training data;
 * Set up the file path to save the trained model;
-* Tune the key hyper-parameters of the NeuroTPR
-
+* Train the model using the following command:
 ```bash
-    python3 Model/train.py
+    python3 SourceCode/neurotpr/train.py
  ```
-
-Please see detailed comments in our source codes for changing the settings.
+More details about training NeuroTPR are available in the comments of our source-code files. 
 
 
 ### Project dependencies:
-
-* Python 3.6+ and a recent version of numpy
-* NLTK 3.5
-* Keras 2.3.0
-* Tensorflow 1.8.0+
+* Python 3.6
+* Keras 2.3.1
+* Tensorflow 1.14.0
 * Keras-contrib (https://github.com/keras-team/keras-contrib)
 * Tensorflow Hub (https://www.tensorflow.org/hub)
-* The rest should be installed alongside the five major libraries
+* NLTK 3.5
+* emoji 0.6.0

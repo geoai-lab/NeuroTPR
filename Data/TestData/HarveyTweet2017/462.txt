@@ -1,0 +1,7 @@
+Goliad	B-location
+State	I-location
+Park	I-location
+closed
+because
+of
+Harvey

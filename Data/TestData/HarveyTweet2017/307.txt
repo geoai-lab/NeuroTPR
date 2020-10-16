@@ -1,0 +1,13 @@
+Anyone
+near
+Misty	B-location
+Winds	I-location
+trailer	I-location
+park	I-location
+in
+Corpus	B-location
+Christi	I-location
+know
+the
+damage
+?

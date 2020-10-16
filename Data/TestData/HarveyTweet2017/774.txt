@@ -1,0 +1,11 @@
+Water
+has
+resided
+on
+pumps
+by
+Lethia	B-location
+St	I-location
+.
+setxnews
+harvey

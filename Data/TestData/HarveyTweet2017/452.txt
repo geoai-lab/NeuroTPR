@@ -1,0 +1,16 @@
+Frazer	B-location
+Pike	I-location
+Road	I-location
+Church	I-location
+gathering
+donations
+for
+HurricaneHarvey
+relief
+@
+Chantilly
+Home
+Depot
+until
+Wednesday
+.

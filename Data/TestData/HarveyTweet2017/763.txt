@@ -1,0 +1,12 @@
+avoid
+Richmond	B-location
+Ave	I-location
+&
+Kirby	B-location
+Dr	I-location
+flooded
+right
+now
+HurricaneHarvey
+Harvey2017
+houstonweathe

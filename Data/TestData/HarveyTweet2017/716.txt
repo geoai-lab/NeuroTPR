@@ -1,0 +1,27 @@
+Pls
+RETWEET
+>
+>
+>
+Animals
+are
+trapped
+at
+Tall
+Tales
+Rescue
+-
+send
+boats
+please
+!
+!
+413
+Speights	B-location
+Loop	I-location
+Rd	I-location
+Hankamer	B-location
+,
+TX	B-location
+7756
+…

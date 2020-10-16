@@ -1,0 +1,15 @@
+100
+seniors
+,
+disabled
+and
+children
+stuck
+in
+their
+nursing
+home
+in
+Katy	B-location
+TX	B-location
+HurricaneHarvey

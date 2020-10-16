@@ -1,0 +1,20 @@
+5400
+Bayou	B-location
+Dr	I-location
+.	I-location
+Dickinson	B-location
+,
+TX	B-location
+Rachel
+Patrick
+is
+trapped
+,
+headed
+to
+roof
+.
+RT
+Emergency
+services
+…

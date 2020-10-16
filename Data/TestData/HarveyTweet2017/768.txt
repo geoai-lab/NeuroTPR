@@ -1,0 +1,15 @@
+What
+Did
+Harvey
+Do
+to
+the
+WindFarms
+on
+the
+Texas	B-location
+Coast	I-location
+?
+|
+Wolf	B-location
+Street	I-location

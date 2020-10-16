@@ -1,0 +1,19 @@
+Rain's
+here
+in
+Cedar	B-location
+Park	I-location
+.
+It's
+about
+12
+hours
+earlier
+than
+expected
+,
+so
+that's
+comforting
+.
+Harvey201

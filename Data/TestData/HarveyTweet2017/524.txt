@@ -1,0 +1,26 @@
+If
+you
+are
+driving
+home
+from
+downtown
+Houston	B-location
+we
+need
+help
+unloading
+18
+wheeler
+of
+Harvey
+supplies
+@
+5:30+
+pm
+.
+3625
+Gager	B-location
+St	I-location
+,
+Housto	B-location

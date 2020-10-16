@@ -1,0 +1,21 @@
+Buffalo	B-location
+Bayou	I-location
+at
+S	B-location
+Piney	I-location
+Point	I-location
+Rd	I-location
+,
+crossable
+as
+of
+2:00
+pm
+about
+2
+feet
+from
+bridge
+KPRC2
+houstonflood
+…

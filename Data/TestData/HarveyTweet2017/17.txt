@@ -1,0 +1,22 @@
+Harvey
+HTX
+floodinghouston
+flashflooding
+houstonflood
+reported
+at
+Post	B-location
+Oak	I-location
+Park	I-location
+Dr	I-location
+,
+near
+West	B-location
+Loop	I-location
+,
+houston	B-location
+,
+at
+7:30
+morning
+…

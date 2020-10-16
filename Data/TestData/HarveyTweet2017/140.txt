@@ -1,0 +1,22 @@
+*
+RETWEET
+*
+Help
+fill
+truck
+for
+HurricaneHarvey
+victims
+@
+VB	B-location
+Oceanfront	I-location
+!
+!
+Truck
+is
+@
+2017
+Winston	B-location
+Salem	I-location
+Rd	I-location
+.

@@ -1,0 +1,25 @@
+I
+hope
+everyone
+is
+staying
+safe
+during
+HurricaneHarvey
+.
+If
+you
+need
+food
+or
+a
+place
+to
+stay
+we
+are
+off
+Washington	B-location
+And
+Houston	B-location
+ave	I-location

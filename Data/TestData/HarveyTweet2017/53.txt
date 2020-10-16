@@ -1,0 +1,22 @@
+HurricaneHarvey
+My
+mother
+needs
+help
+!
+Please
+send
+a
+boat
+to
+4254
+Geronimo	B-location
+Lake	I-location
+Dr	I-location
+.	I-location
+Houston	B-location
+,
+TX	B-location
+77047
+rescue
+Pleasehel

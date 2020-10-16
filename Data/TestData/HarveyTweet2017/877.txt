@@ -1,0 +1,12 @@
+Today's
+updated
+list
+of
+needs
+at
+N	B-location
+Burnet	I-location
+Rd	I-location
+shelter
+Harvey2017
+HurricaneHarveyRelief

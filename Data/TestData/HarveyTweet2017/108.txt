@@ -1,0 +1,16 @@
+harvey
+hurricaneharvey
+austintx
+walked
+home
+lol
+got7
+lol
+@
+Hyde	B-location
+Park	I-location
+(
+Austin	B-location
+,
+Texas	B-location
+)

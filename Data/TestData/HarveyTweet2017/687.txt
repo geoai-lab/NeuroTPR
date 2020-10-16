@@ -1,0 +1,23 @@
+Parts
+of
+southeast
+Houston	B-location
+underwater
+right
+now
+.
+This
+is
+Broadway	B-location
+St	I-location
+from
+the
+I610	B-location
+-
+E
+overpass
+.
+Harvey
+txwx
+houwx
+…

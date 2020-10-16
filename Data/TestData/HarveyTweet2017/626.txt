@@ -1,0 +1,15 @@
+Memorial	B-location
+Drive	I-location
+@
+Memorial	B-location
+Mews	I-location
+St	I-location
+.	I-location
+across
+from
+BP
+Petroleum
+Sunday
+.
+Houston	B-location
+HoustonFlood

@@ -1,0 +1,16 @@
+Buffalo	B-location
+Bayou	I-location
+overflowing
+,
+everyone
+stay
+away
+from
+Memorial	B-location
+Drive	I-location
+,
+Allen	B-location
+Parkway	I-location
+area
+.
+houstonflood

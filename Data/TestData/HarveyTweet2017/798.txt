@@ -1,0 +1,26 @@
+Yale	B-location
+St	I-location
+@
+I	B-location
+-	I-location
+10	I-location
+by
+White	B-location
+Oak	I-location
+Bayou	I-location
+looking
+SE
+to
+downtown
+Houston	B-location
+(
+background
+);
+Sprouts
+to
+right
+;
+Thx
+,
+Kathryn
+…

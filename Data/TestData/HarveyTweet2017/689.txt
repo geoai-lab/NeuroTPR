@@ -1,0 +1,25 @@
+PET
+RESCUE
+NEEDED
+:
+(
+20
++
+Animals
+)
+413
+Speights	B-location
+Loop	I-location
+Road	I-location
+,
+Hankamer	B-location
+,
+TX	B-location
+77560
+|
+(281) 851-2500
+|
+Harvey2017
+HoustonStrong
+PLS
+R

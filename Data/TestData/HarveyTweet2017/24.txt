@@ -1,0 +1,24 @@
+HARVEY
+donations
+DAY
+2
+:
+Anne
+and
+Iza
+will
+be
+dropping
+off
+donations
+at
+HALL	B-location
+Park	I-location
+on
+THURSDAY
+(8
+/
+31/17
+)
+Joe
+...

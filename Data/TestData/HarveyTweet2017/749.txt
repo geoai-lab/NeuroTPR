@@ -1,0 +1,24 @@
+Volunteers
+also
+are
+doing
+roof
+work
+.
+This
+home
+on
+South	B-location
+Arch	I-location
+Street	I-location
+in
+Aransas	B-location
+Pass	I-location
+lost
+a
+part
+of
+its
+roof
+during
+…

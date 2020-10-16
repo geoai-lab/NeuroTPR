@@ -1,0 +1,19 @@
+COVE
+HOUSE
+HOMELESS
+SHELTER
+IS
+ACCEPTING
+DONATIONS
+FOR
+EXPECTED
+EVACS
+108
+East	B-location
+Halstead	I-location
+Avenue	I-location
+,
+Copperas	B-location
+Cove	I-location
+76522
+hurricaneharve

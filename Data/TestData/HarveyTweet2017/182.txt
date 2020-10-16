@@ -1,0 +1,21 @@
+On
+facebook
+:
+Dogs
+Day
+Inn
+on
+Barker	B-location
+Cypress	I-location
+has
+30
+dogs
+stuck
+,
+need
+to
+be
+rescued
+by
+boat
+…

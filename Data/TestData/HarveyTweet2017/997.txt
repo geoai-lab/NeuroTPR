@@ -1,0 +1,20 @@
+Teachers
+from
+the
+Houston	B-location
+area
+are
+collecting
+supplies
+for
+Harvey
+at
+Sara	B-location
+Park	I-location
+in
+Tomahawk	B-location
+until
+7p
+.
+m
+.

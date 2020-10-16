@@ -1,0 +1,22 @@
+Update
+:
+My
+family
+STILL
+needs
+to
+be
+rescued
+.
+4318
+Kylewood	B-location
+Ct	I-location
+.	I-location
+,
+Port	B-location
+Arthur	I-location
+,
+TX	B-location
+77642
+.
+hurricaneharvey

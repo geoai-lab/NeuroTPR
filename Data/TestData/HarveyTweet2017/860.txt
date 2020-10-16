@@ -1,0 +1,22 @@
+This
+is
+the
+scene
+at
+the
+Yale	B-location
+St	I-location
+.	I-location
+"
+bridge
+"
+and
+White	B-location
+Oak	I-location
+Bayou	I-location
+.
+Harvey
+.
+read
+more
+:

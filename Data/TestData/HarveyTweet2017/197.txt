@@ -1,0 +1,18 @@
+Animals
+are
+trapped
+at
+Tall	B-location
+Tales	I-location
+.
+Rescue
+&
+send
+boats
+please
+!
+!
+413
+Speights	B-location
+Loop	I-location
+Rd	I-location

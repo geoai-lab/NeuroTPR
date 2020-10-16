@@ -1,0 +1,20 @@
+HurricaneHarvey
+Port	B-location
+Arthur	I-location
+please
+send
+a
+boat
+to
+4318
+Kylewood	B-location
+Ct	I-location
+.	I-location
+Port	B-location
+Arthur	I-location
+,
+TX	B-location
+family
+needs
+help
+ASA

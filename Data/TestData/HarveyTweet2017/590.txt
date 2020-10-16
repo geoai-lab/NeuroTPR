@@ -1,0 +1,15 @@
+Joel	B-location
+Olsteen	I-location
+Osteen	I-location
+Church	I-location
+not
+flooded
+according
+to
+Doubletree
+Hotel
+across
+street
+from
+Lakewood	B-location
+…

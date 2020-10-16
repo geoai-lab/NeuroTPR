@@ -1,0 +1,18 @@
+:
+Send
+clothing
+,
+supplies
+to
+Delmar	B-location
+Stadium	I-location
+,
+2020
+Mangum	B-location
+Road	I-location
+,
+Houston	B-location
+,
+TX	B-location
+,
+77092

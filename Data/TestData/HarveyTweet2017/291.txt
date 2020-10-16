@@ -1,0 +1,13 @@
+Actually
+bluer
+than
+it
+looks
+.
+hurricaneharvey
+bluesky
+@
+Cedar	B-location
+Park	I-location
+,
+Texas	B-location

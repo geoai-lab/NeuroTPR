@@ -1,0 +1,16 @@
+Can
+someone
+help
+at
+500
+Neches	B-location
+Ave	I-location
+in
+the
+attic
+with
+her
+sons
+and
+grandbabies
+…

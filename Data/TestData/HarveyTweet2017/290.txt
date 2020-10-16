@@ -1,0 +1,15 @@
+According
+to
+Aransas	B-location
+Pass	I-location
+Police
+the
+Harbor	B-location
+Master	I-location
+Building	I-location
+on
+the
+harbor
+blew
+away
+HarveyStorm

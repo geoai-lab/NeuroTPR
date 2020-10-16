@@ -1,0 +1,18 @@
+Virginia	B-location
+Beach	I-location
+restaurants
+come
+together
+to
+support
+victims
+of
+Harvey
+.
+Dine
+at
+Chichos
+29th	B-location
+Street	I-location
+,
+...

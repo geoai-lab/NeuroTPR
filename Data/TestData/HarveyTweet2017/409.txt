@@ -1,0 +1,24 @@
+Drink
+for
+a
+cause
+:
+Cedar	B-location
+Park's	I-location
+to
+donate
+$
+1
+of
+every
+house
+beer
+and
+drip
+coffee
+sold
+this
+week
+to
+HurricaneHarvey
+relief

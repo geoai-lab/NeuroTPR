@@ -1,0 +1,23 @@
+USVI
+,
+Puerto	B-location
+Rico	I-location
+,
+Texas	B-location
+,
+and
+Florida	B-location
+need
+help
+and
+housing
+.
+Still
+building
+that
+dividing
+wall
+?
+Irma
+Harvey
+Mari

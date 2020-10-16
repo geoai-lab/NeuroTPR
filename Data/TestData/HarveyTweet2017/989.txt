@@ -1,0 +1,25 @@
+TODAY
+:
+Car
+wash
+at
+Eugene
+Field
+2900
+31st	B-location
+Ave	I-location
+fr
+10a
+-
+2p
+.
+Help
+them
+support
+a
+Houston	B-location
+elementary
+after
+Hurricane
+Harvey
+disaster

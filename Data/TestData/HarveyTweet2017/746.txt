@@ -1,0 +1,24 @@
+Very
+rare
+:
+traffic
+jam
+on
+Texas	B-location
+Avenue	I-location
+in
+Bridge	B-location
+City	I-location
+Texas
+due
+to
+I	B-location
+-	I-location
+10	I-location
+closure
+between
+BeaumontTx	B-location
+and
+Vidor	B-location
+.
+…

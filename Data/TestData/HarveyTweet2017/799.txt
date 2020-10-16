@@ -1,0 +1,24 @@
+Worried
+.
+A
+foot
+2
+go
+before
+Oyster	B-location
+Creek	I-location
+starts
+spilling
+into
+Lakes	B-location
+of	I-location
+Brightwater	I-location
+,
+Lakefront	B-location
+Drive	I-location
+,
+in
+front
+of
+ou
+…

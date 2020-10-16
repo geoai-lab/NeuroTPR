@@ -1,0 +1,29 @@
+I
+sent
+a
+txt
+to
+this
+
+to
+hopefully
+get
+help
+for
+Cynthia
+Harmon
+@
+500
+Neches	B-location
+Ave	I-location
+,
+Port	B-location
+Arthur	I-location
+Tx	B-location
+.
+Stuck
+in
+attic
+/
+no
+…

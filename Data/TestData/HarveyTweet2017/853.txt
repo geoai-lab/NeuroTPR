@@ -1,0 +1,17 @@
+This
+is
+Water	B-location
+Street	I-location
+in
+La	B-location
+Grange	I-location
+-
+residents
+came
+down
+to
+see
+their
+businesses
+underwater
+harvey

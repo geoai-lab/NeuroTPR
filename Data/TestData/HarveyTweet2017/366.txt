@@ -1,0 +1,17 @@
+CYL
+in
+parntership
+w
+/
+will
+be
+collecting
+donations
+for
+HurricaneHarvey
+victims
+.
+Bell	B-location
+Memorial	I-location
+Park	I-location
+…

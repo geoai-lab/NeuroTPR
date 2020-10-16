@@ -1,0 +1,25 @@
+Due
+to
+Harvey
+,
+Port	B-location
+Arthur	I-location
+CBP
+have
+moved
+to
+a
+temporary
+location
+:
+2615
+Calder	B-location
+Avenue	I-location
+,
+210
+Beaumont	B-location
+,
+Texas	B-location
+P:
+832-368-1943
+Harve

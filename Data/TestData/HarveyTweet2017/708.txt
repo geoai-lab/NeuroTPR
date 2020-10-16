@@ -1,0 +1,22 @@
+Please
+anyone
+with
+boats
+-
+-
+dog
+sanctuary
+in
+desperate
+need
+ASAP
+413
+Speights	B-location
+Loop	I-location
+Road	I-location
+Hankamer	B-location
+,
+TX	B-location
+77560
+houstonflood
+hurricaneharve

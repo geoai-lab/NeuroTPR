@@ -1,0 +1,12 @@
+AFTER
+Day
+1
+.
+harvey
+houstonweather
+Houston	B-location
+beforeandafter
+@
+Buffalo	B-location
+Bayou	I-location
+Park	I-location

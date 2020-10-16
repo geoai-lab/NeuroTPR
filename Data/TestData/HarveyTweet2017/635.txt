@@ -1,0 +1,20 @@
+NEED
+HELP
+IN
+EAST
+END
+.
+ELDERLY
+LADY
+IN
+DIRE
+NEED
+ADDRESS
+5201
+Hershe	B-location
+Street	I-location
+PLS
+SEND
+HELP
+HoustonStrong
+HoustonFlood

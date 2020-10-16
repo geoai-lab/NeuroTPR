@@ -1,0 +1,14 @@
+Pray
+coming
+from
+690
+Eagleson	B-location
+Rd	I-location
+,
+Ottawa	B-location
+,
+ON	B-location
+to
+people
+suffering
+Harvey

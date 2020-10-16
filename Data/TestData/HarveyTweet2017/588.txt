@@ -1,0 +1,24 @@
+Looking
+into
+Donating
+some
+clothes
+to
+the
+victims
+of
+HurricaneHarvey
+.
+The
+address
+to
+donate
+is
+2020
+Mangum	B-location
+Rd	I-location
+.
+Houston	B-location
+,
+TX	B-location
+7709

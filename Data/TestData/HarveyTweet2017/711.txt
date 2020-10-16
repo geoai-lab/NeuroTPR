@@ -1,0 +1,27 @@
+Please
+RT
+!
+Just
+got
+a
+call
+.
+200
+beds
+open
+for
+evacuees
+at
+Forge
+for
+Families
+Shelter
+3435
+Dixie	B-location
+Rd	I-location
+,
+Houston	B-location
+77021
+KHOU11
+Harvey
+HouNew

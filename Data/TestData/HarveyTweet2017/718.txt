@@ -1,0 +1,14 @@
+HurricaneHarvey
+Damage
+:
+The
+Harbor	B-location
+Master	I-location
+Building	I-location
+just
+blew
+away
+!
+Aransas	B-location
+Pass	I-location
+Police

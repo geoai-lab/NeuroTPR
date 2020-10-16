@@ -1,0 +1,18 @@
+North	B-location
+Main	I-location
+now
+open
+from
+45
+to
+downtown
+.
+Barricades
+lifted
+at
+underpass
+near
+Burnett	B-location
+St	I-location
+.
+houstonfloodin

@@ -1,0 +1,17 @@
+GalvScanner
+,
+a
+sailboat
+has
+washed
+up
+at
+the
+corner
+of
+Space	B-location
+Center	I-location
+Boulevard	I-location
+and
+NASA	B-location
+Road	I-location

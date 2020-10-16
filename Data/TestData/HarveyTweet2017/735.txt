@@ -1,0 +1,15 @@
+White	B-location
+Oak	I-location
+Bayou	I-location
+around
+Stude	B-location
+Park	I-location
+.
+From
+yesterday
+to
+today
+.
+HoustonFloods
+Houston	B-location
+Heights

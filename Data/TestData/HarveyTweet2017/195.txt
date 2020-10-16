@@ -1,0 +1,9 @@
+West	B-location
+Bellfort	I-location
+ave	I-location
+.
+Houston	B-location
+Texas	B-location
+flooded
+houstonflood
+Harvey2017

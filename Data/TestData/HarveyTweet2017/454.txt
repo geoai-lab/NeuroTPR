@@ -1,0 +1,17 @@
+Good
+morning
+from
+Kroger
+on
+Killian	B-location
+Rd	I-location
+.
+We're
+raising
+cash
+for
+the
+HurricaneHarvey
+victims
+.
+…

@@ -1,0 +1,19 @@
+Sandbags
+at
+the
+front
+doors
+of
+Union	B-location
+Station	I-location
+,
+Minute	B-location
+Maid	I-location
+Park	I-location
+in
+downtown
+Houston	B-location
+.
+Astros
+Harvey
+khou11

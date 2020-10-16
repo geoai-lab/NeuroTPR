@@ -1,0 +1,20 @@
+Clouds
+building
+over
+the
+Corpus	B-location
+Christi	I-location
+Bay	I-location
+but
+no
+rain
+...
+yet
+.
+Chance
+of
+rain
+again
+tomorrow
+.
+HARVEY

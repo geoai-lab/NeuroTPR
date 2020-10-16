@@ -1,0 +1,18 @@
+That's
+not
+the
+line
+for
+Taqueria
+Laredo
+on
+Washington	B-location
+Ave	I-location
+.	I-location
+Its
+for
+generators
+at
+.
+txlege
+HurricaneHarvey

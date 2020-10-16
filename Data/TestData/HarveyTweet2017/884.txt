@@ -1,0 +1,18 @@
+Donations
+&
+meal
+located
+at
+240
+W	B-location
+.	I-location
+18th	I-location
+St	I-location
+77008
+in
+our
+Fellowship
+Hall
+.
+114Actsofservice
+HurricaneHarve

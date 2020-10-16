@@ -1,0 +1,22 @@
+Animals
+are
+trapped
+at
+Tall	B-location
+Tales	I-location
+Rescue	I-location
+-
+send
+boats
+please
+!
+413
+Speights	B-location
+Loop	I-location
+Rd	I-location
+,
+Hankamer	B-location
+,
+TX	B-location
+77560
+…

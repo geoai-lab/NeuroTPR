@@ -1,0 +1,24 @@
+Harvey
+relief
+drive
+@
+Linn
+Energy
+is
+off
+to
+a
+great
+start
+.
+Their
+sites
+are
+at
+Hwy	B-location
+81	I-location
+&
+Airport	B-location
+rd	I-location
+in
+Kingfisher	B-location

@@ -1,0 +1,15 @@
+Ken's	B-location
+Pizza	I-location
+in
+Iowa	B-location
+Park	I-location
+Brings
+in
+the
+Dough
+With
+Sizable
+Donation
+to
+HurricaneHarvey
+Relief

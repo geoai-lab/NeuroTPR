@@ -1,0 +1,10 @@
+FOXNEWS
+reports
+HurricaneHarvey
+knocks
+down
+brick
+wall
+in
+Corpus	B-location
+Christi	I-location

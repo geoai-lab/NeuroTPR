@@ -1,0 +1,27 @@
+Hurricaneharvey
+it
+is
+3:13
+am
+8-29-
+17
+Michael
+is
+stuck
+has
+been
+stuck
+in
+deep
+water
+in
+his
+truck
+for
+2
+hrs
+on
+Wallaceville	B-location
+St	I-location
+in	
+Housto	B-location

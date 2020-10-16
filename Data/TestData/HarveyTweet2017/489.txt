@@ -1,0 +1,28 @@
+Have
+some
+items
+you'd
+like
+to
+donate
+to
+victims
+of
+Harvey
+?
+A
+truck
+is
+parked
+off
+of
+I	B-location
+-	I-location
+95	I-location
+/
+Willis	B-location
+Rd	I-location
+(
+9010
+Quinnford	B-location
+…

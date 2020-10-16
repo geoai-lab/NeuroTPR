@@ -1,0 +1,16 @@
+trout
+street
+bar
+&
+grill
+,
+woody's
+&
+virgina's
+in
+port	B-location
+aransas	I-location
+are
+all
+gone
+HurricaneHarve

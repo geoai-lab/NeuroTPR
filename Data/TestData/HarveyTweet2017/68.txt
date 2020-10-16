@@ -1,0 +1,16 @@
+NOLAReady
+alert
+:
+Street
+flooding
+reported
+at
+N	B-location
+Carrollton	I-location
+Ave	I-location
+,	
+and
+Moss	B-location
+St	I-location
+.	I-location
+Visit

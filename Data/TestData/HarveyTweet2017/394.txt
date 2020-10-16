@@ -1,0 +1,18 @@
+Current
+state
+of
+Cypresswood	B-location
+Dr	I-location
+&
+Lakewood	B-location
+Forest	I-location
+Dr	I-location
+in
+Cypress	B-location
+just
+east
+of
+Jones	B-location
+Rd	I-location
+HoustonFloods
+…

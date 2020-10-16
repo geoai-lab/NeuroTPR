@@ -1,0 +1,22 @@
+Urban
+Search
+&
+Rescue
+Task
+Force
+3
+out
+of
+Menlo	B-location
+Park	I-location
+just
+received
+orders
+to
+deploy
+to
+Texas	B-location
+to
+respond
+to
+…

@@ -1,0 +1,22 @@
+Visited
+w
+the
+congregation
+of
+First	B-location
+Sixth	I-location
+St	I-location
+Baptist	I-location
+Church	I-location
+to
+join
+in
+prayer
+for
+Texans
+impacted
+by
+Harvey
+on
+th
+…

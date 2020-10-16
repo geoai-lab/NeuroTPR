@@ -1,0 +1,22 @@
+Photo
+from
+New	B-location
+Orleans	I-location
+:
+A
+sign
+written
+on
+infamous
+blue
+tarp
+hung
+on
+the
+Broad	B-location
+St	I-location
+as
+Harvey
+rains
+app
+…

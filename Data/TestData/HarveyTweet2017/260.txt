@@ -1,0 +1,22 @@
++
+Plus
+Hotel
+15701
+Park	B-location
+Ten	I-location
+Pl	I-location
+,
+Houston	B-location
+,
+TX	B-location
+77084
+has
+people
+stranded
+without
+food
+or
+clothing
+.
+HarveyRelief
+HurricaneHarve

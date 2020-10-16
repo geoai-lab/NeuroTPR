@@ -1,0 +1,29 @@
+Knights
+of
+Columbus
+:
+1050
+Cecilia	B-location
+St	I-location
+in
+Alice	B-location
+is
+open
+as
+a
+shelter
+St	B-location
+.	I-location
+Paul	I-location
+Lutheran	I-location
+Church	I-location
+:
+234
+N	B-location
+Gohmert	I-location
+St	I-location
+.
+Yorktown	B-location
+TX	B-location
+78164
+harve

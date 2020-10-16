@@ -1,0 +1,12 @@
+Alive
+&
+well
+in
+Hyde	B-location
+Park	I-location
+Heights	I-location
+,
+Houston	B-location
+!
+HurricaneHarvey
+FromWhereIStand

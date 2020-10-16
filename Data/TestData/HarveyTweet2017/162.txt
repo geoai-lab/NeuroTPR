@@ -1,0 +1,25 @@
+2
+people
+in
+need
+of
+rescue
+Bavaria	B-location
+buildings
+.
+12431
+Maura	B-location
+Lane	I-location
+,
+Houston	B-location
+,
+TX	B-location
+77044.
+Near
+CE	B-location
+King	I-location
+Pkwy	I-location
+and
+Tidwell	B-location
+HurricaneHarvey
+HarveySO

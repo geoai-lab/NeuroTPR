@@ -1,0 +1,19 @@
+Closed
+due
+to
+train
+derailment
+in
+Harvey
+on
+Destrehan	B-location
+Ave	I-location
+NB
+between
+4th	B-location
+St	I-location
+and
+River	B-location
+Rd	I-location
+traffic
+NOLA

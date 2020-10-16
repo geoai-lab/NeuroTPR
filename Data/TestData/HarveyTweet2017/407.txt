@@ -1,0 +1,33 @@
+Donations
+of
+bottled
+water
+&
+diapers
+can
+be
+dropped
+off
+between
+9
+a
+.
+m
+&
+9
+p
+.
+m
+.
+at
+the
+Burbank	B-location
+Fire	I-location
+Station	I-location
+(8
+455
+S	B-location
+Mayfield	I-location
+Ave	I-location
+)
+Harve
