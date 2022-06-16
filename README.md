@@ -34,7 +34,8 @@ Using the pretrained NeuroTPR model for toponym recognition will need the follow
  ```bash
 	conda create -n NeuroTPR python=3.6
 	conda activate NeuroTPR
-	conda install keras -c conda-forge
+	pip install "tensorflow>=1.15,<2.0"
+	pip install keras==2.3.1
 	pip install git+https://www.github.com/keras-team/keras-contrib.git
 	pip install neurotpr
  ```
