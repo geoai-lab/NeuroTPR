@@ -38,6 +38,7 @@ Using the pretrained NeuroTPR model for toponym recognition will need the follow
 	pip install keras==2.3.1
 	pip install git+https://www.github.com/keras-team/keras-contrib.git
 	pip install neurotpr
+	pip install --force-reinstall emoji==1.7.0
  ```
 
 2. Download the [pretrained model](PretrainedModel.zip), and unzip it to a folder that you would prefer.
