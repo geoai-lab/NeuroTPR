@@ -48,7 +48,7 @@ Using the pretrained NeuroTPR model for toponym recognition will need the follow
 from neurotpr import geoparse
     
 geoparse.load_model("the folder path of the pretrained model; note that the path should end with /")
-result = geoparse.topo_recog("Buffalo is a city in New York State.")
+result = geoparse.topo_recog("Buffalo is a beautiful city in New York State.")
 print(result)
  ```
 The input of the "topo_recog" function is a string, and the output is a list of JSON objects containing the recognized toponyms and their start and end indexes in the input string.
